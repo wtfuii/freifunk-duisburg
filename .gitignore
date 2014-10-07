@@ -8,3 +8,6 @@ local_settings.py
 /templates_vorlagen
 migrations
 koala-config.json
+static_blueprints
+templates_blueprints
+.idea
