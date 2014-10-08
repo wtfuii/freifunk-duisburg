@@ -1,0 +1,55 @@
+@import "bootstrap/bootstrap.less";
+
+@footerheight: 80px;
+
+html,
+body {
+  height: 100%;
+    #content {
+      margin-top: 60px;
+    }
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -@footerheight;
+  /* Pad bottom by footer height */
+  padding: 0 0 @footerheight;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: @footerheight;
+}
+
+.megaico {
+  font-size: 80px;
+  text-align: center;
+  height: 150px;
+  transition: 200ms linear;
+  .circle {
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5em;
+    border-radius: 50%;
+    border-color: black;
+    margin: 0 auto 0 auto;
+    border: solid;
+
+  }
+  &:hover {
+    font-size: 90px;
+    transition: 200ms linear;
+  }
+}
+
+.jumbotron {
+  background: url('/static/freifunkjumbobig.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}

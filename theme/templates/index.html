@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+ <div class="jumbotron">
+          <h2>Freifunk Community Duisburg</h1>
+          <p>Freies Netzwerk für unsere Stadt</p>
+          <p><a class="btn btn-primary btn-lg" role="button">Weitere Infos</a></p>
+ </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-heading megaico"><div class="circle"><i class="fa fa-map-marker"></i></div></div>
+                  <div class="panel-body">
+                    <p>Wo ist in Duisburg bereits Freifunk verfügbar? Hier gehts zu Übersicht.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-heading megaico"><div class="circle"><i class="fa fa-video-camera"></i></div></div>
+                  <div class="panel-body">
+                    Was ist Freifunk? Eine Erklärung in 1 Minute und 27 Sekunden.
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-heading megaico"><div class="circle"><i class="fa fa-download"></i></div></div>
+                  <div class="panel-body">
+                    Du suchst die aktuelle Freifunk Firmware für deinen WLAN-Router? Hier entlang!
+                  </div>
+                </div></div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-heading megaico"><div class="circle"><i class="fa fa-users"></i></div></div>
+                  <div class="panel-body">
+                    Du möchtest mit uns Kontakt aufnehmen? Wir sind per Mail, Chat und persönlich erreichbar. Weitere Infos findest du hier.
+                  </div>
+                </div></div></div>
+        </div>
+{% endblocktrans %}
+{% endblock %}

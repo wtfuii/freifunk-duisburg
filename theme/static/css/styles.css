@@ -1,15 +1,12 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-/* line 9, bootstrap\normalize.less */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-/* line 19, bootstrap\normalize.less */
 body {
   margin: 0;
 }
-/* line 32, bootstrap\normalize.less */
 article,
 aside,
 details,
@@ -24,7 +21,6 @@ section,
 summary {
   display: block;
 }
-/* line 52, bootstrap\normalize.less */
 audio,
 canvas,
 progress,
@@ -32,53 +28,42 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
-/* line 65, bootstrap\normalize.less */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
-/* line 75, bootstrap\normalize.less */
 [hidden],
 template {
   display: none;
 }
-/* line 87, bootstrap\normalize.less */
 a {
   background: transparent;
 }
-/* line 95, bootstrap\normalize.less */
 a:active,
 a:hover {
   outline: 0;
 }
-/* line 107, bootstrap\normalize.less */
 abbr[title] {
   border-bottom: 1px dotted;
 }
-/* line 115, bootstrap\normalize.less */
 b,
 strong {
   font-weight: bold;
 }
-/* line 124, bootstrap\normalize.less */
 dfn {
   font-style: italic;
 }
-/* line 133, bootstrap\normalize.less */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-/* line 142, bootstrap\normalize.less */
 mark {
   background: #ff0;
   color: #000;
 }
-/* line 151, bootstrap\normalize.less */
 small {
   font-size: 80%;
 }
-/* line 159, bootstrap\normalize.less */
 sub,
 sup {
   font-size: 75%;
@@ -86,38 +71,29 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-/* line 167, bootstrap\normalize.less */
 sup {
   top: -0.5em;
 }
-/* line 171, bootstrap\normalize.less */
 sub {
   bottom: -0.25em;
 }
-/* line 182, bootstrap\normalize.less */
 img {
   border: 0;
 }
-/* line 190, bootstrap\normalize.less */
 svg:not(:root) {
   overflow: hidden;
 }
-/* line 201, bootstrap\normalize.less */
 figure {
   margin: 1em 40px;
 }
-/* line 209, bootstrap\normalize.less */
 hr {
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
-/* line 219, bootstrap\normalize.less */
 pre {
   overflow: auto;
 }
-/* line 227, bootstrap\normalize.less */
 code,
 kbd,
 pre,
@@ -125,7 +101,6 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-/* line 250, bootstrap\normalize.less */
 button,
 input,
 optgroup,
@@ -135,16 +110,13 @@ textarea {
   font: inherit;
   margin: 0;
 }
-/* line 264, bootstrap\normalize.less */
 button {
   overflow: visible;
 }
-/* line 275, bootstrap\normalize.less */
 button,
 select {
   text-transform: none;
 }
-/* line 288, bootstrap\normalize.less */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -152,160 +124,126 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-/* line 300, bootstrap\normalize.less */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
-/* line 309, bootstrap\normalize.less */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 320, bootstrap\normalize.less */
 input {
   line-height: normal;
 }
-/* line 332, bootstrap\normalize.less */
 input[type="checkbox"],
 input[type="radio"] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
 }
-/* line 344, bootstrap\normalize.less */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-/* line 355, bootstrap\normalize.less */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 368, bootstrap\normalize.less */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-/* line 377, bootstrap\normalize.less */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-/* line 388, bootstrap\normalize.less */
 legend {
   border: 0;
   padding: 0;
 }
-/* line 397, bootstrap\normalize.less */
 textarea {
   overflow: auto;
 }
-/* line 406, bootstrap\normalize.less */
 optgroup {
   font-weight: bold;
 }
-/* line 417, bootstrap\normalize.less */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* line 422, bootstrap\normalize.less */
 td,
 th {
   padding: 0;
 }
 @media print {
-  /* line 8, bootstrap\print.less */
   * {
     text-shadow: none !important;
     color: #000 !important;
     background: transparent !important;
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
-  /* line 15, bootstrap\print.less */
   a,
   a:visited {
     text-decoration: underline;
   }
-  /* line 20, bootstrap\print.less */
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  /* line 24, bootstrap\print.less */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-  /* line 29, bootstrap\print.less */
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
-  /* line 34, bootstrap\print.less */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-  /* line 40, bootstrap\print.less */
   thead {
     display: table-header-group;
   }
-  /* line 44, bootstrap\print.less */
   tr,
   img {
     page-break-inside: avoid;
   }
-  /* line 49, bootstrap\print.less */
   img {
     max-width: 100% !important;
   }
-  /* line 53, bootstrap\print.less */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-  /* line 60, bootstrap\print.less */
   h2,
   h3 {
     page-break-after: avoid;
   }
-  /* line 67, bootstrap\print.less */
   select {
     background: #fff !important;
   }
-  /* line 72, bootstrap\print.less */
   .navbar {
     display: none;
   }
-  /* line 76, bootstrap\print.less */
   .table td,
   .table th {
     background-color: #fff !important;
   }
-  /* line 83, bootstrap\print.less */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
-  /* line 87, bootstrap\print.less */
   .label {
     border: 1px solid #000;
   }
-  /* line 91, bootstrap\print.less */
   .table {
     border-collapse: collapse !important;
   }
-  /* line 95, bootstrap\print.less */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -316,7 +254,6 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-/* line 21, bootstrap\glyphicons.less */
 .glyphicon {
   position: relative;
   top: 1px;
@@ -328,825 +265,621 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 34, bootstrap\glyphicons.less */
 .glyphicon-asterisk:before {
   content: "\2a";
 }
-/* line 35, bootstrap\glyphicons.less */
 .glyphicon-plus:before {
   content: "\2b";
 }
-/* line 36, bootstrap\glyphicons.less */
 .glyphicon-euro:before {
   content: "\20ac";
 }
-/* line 37, bootstrap\glyphicons.less */
 .glyphicon-minus:before {
   content: "\2212";
 }
-/* line 38, bootstrap\glyphicons.less */
 .glyphicon-cloud:before {
   content: "\2601";
 }
-/* line 39, bootstrap\glyphicons.less */
 .glyphicon-envelope:before {
   content: "\2709";
 }
-/* line 40, bootstrap\glyphicons.less */
 .glyphicon-pencil:before {
   content: "\270f";
 }
-/* line 41, bootstrap\glyphicons.less */
 .glyphicon-glass:before {
   content: "\e001";
 }
-/* line 42, bootstrap\glyphicons.less */
 .glyphicon-music:before {
   content: "\e002";
 }
-/* line 43, bootstrap\glyphicons.less */
 .glyphicon-search:before {
   content: "\e003";
 }
-/* line 44, bootstrap\glyphicons.less */
 .glyphicon-heart:before {
   content: "\e005";
 }
-/* line 45, bootstrap\glyphicons.less */
 .glyphicon-star:before {
   content: "\e006";
 }
-/* line 46, bootstrap\glyphicons.less */
 .glyphicon-star-empty:before {
   content: "\e007";
 }
-/* line 47, bootstrap\glyphicons.less */
 .glyphicon-user:before {
   content: "\e008";
 }
-/* line 48, bootstrap\glyphicons.less */
 .glyphicon-film:before {
   content: "\e009";
 }
-/* line 49, bootstrap\glyphicons.less */
 .glyphicon-th-large:before {
   content: "\e010";
 }
-/* line 50, bootstrap\glyphicons.less */
 .glyphicon-th:before {
   content: "\e011";
 }
-/* line 51, bootstrap\glyphicons.less */
 .glyphicon-th-list:before {
   content: "\e012";
 }
-/* line 52, bootstrap\glyphicons.less */
 .glyphicon-ok:before {
   content: "\e013";
 }
-/* line 53, bootstrap\glyphicons.less */
 .glyphicon-remove:before {
   content: "\e014";
 }
-/* line 54, bootstrap\glyphicons.less */
 .glyphicon-zoom-in:before {
   content: "\e015";
 }
-/* line 55, bootstrap\glyphicons.less */
 .glyphicon-zoom-out:before {
   content: "\e016";
 }
-/* line 56, bootstrap\glyphicons.less */
 .glyphicon-off:before {
   content: "\e017";
 }
-/* line 57, bootstrap\glyphicons.less */
 .glyphicon-signal:before {
   content: "\e018";
 }
-/* line 58, bootstrap\glyphicons.less */
 .glyphicon-cog:before {
   content: "\e019";
 }
-/* line 59, bootstrap\glyphicons.less */
 .glyphicon-trash:before {
   content: "\e020";
 }
-/* line 60, bootstrap\glyphicons.less */
 .glyphicon-home:before {
   content: "\e021";
 }
-/* line 61, bootstrap\glyphicons.less */
 .glyphicon-file:before {
   content: "\e022";
 }
-/* line 62, bootstrap\glyphicons.less */
 .glyphicon-time:before {
   content: "\e023";
 }
-/* line 63, bootstrap\glyphicons.less */
 .glyphicon-road:before {
   content: "\e024";
 }
-/* line 64, bootstrap\glyphicons.less */
 .glyphicon-download-alt:before {
   content: "\e025";
 }
-/* line 65, bootstrap\glyphicons.less */
 .glyphicon-download:before {
   content: "\e026";
 }
-/* line 66, bootstrap\glyphicons.less */
 .glyphicon-upload:before {
   content: "\e027";
 }
-/* line 67, bootstrap\glyphicons.less */
 .glyphicon-inbox:before {
   content: "\e028";
 }
-/* line 68, bootstrap\glyphicons.less */
 .glyphicon-play-circle:before {
   content: "\e029";
 }
-/* line 69, bootstrap\glyphicons.less */
 .glyphicon-repeat:before {
   content: "\e030";
 }
-/* line 70, bootstrap\glyphicons.less */
 .glyphicon-refresh:before {
   content: "\e031";
 }
-/* line 71, bootstrap\glyphicons.less */
 .glyphicon-list-alt:before {
   content: "\e032";
 }
-/* line 72, bootstrap\glyphicons.less */
 .glyphicon-lock:before {
   content: "\e033";
 }
-/* line 73, bootstrap\glyphicons.less */
 .glyphicon-flag:before {
   content: "\e034";
 }
-/* line 74, bootstrap\glyphicons.less */
 .glyphicon-headphones:before {
   content: "\e035";
 }
-/* line 75, bootstrap\glyphicons.less */
 .glyphicon-volume-off:before {
   content: "\e036";
 }
-/* line 76, bootstrap\glyphicons.less */
 .glyphicon-volume-down:before {
   content: "\e037";
 }
-/* line 77, bootstrap\glyphicons.less */
 .glyphicon-volume-up:before {
   content: "\e038";
 }
-/* line 78, bootstrap\glyphicons.less */
 .glyphicon-qrcode:before {
   content: "\e039";
 }
-/* line 79, bootstrap\glyphicons.less */
 .glyphicon-barcode:before {
   content: "\e040";
 }
-/* line 80, bootstrap\glyphicons.less */
 .glyphicon-tag:before {
   content: "\e041";
 }
-/* line 81, bootstrap\glyphicons.less */
 .glyphicon-tags:before {
   content: "\e042";
 }
-/* line 82, bootstrap\glyphicons.less */
 .glyphicon-book:before {
   content: "\e043";
 }
-/* line 83, bootstrap\glyphicons.less */
 .glyphicon-bookmark:before {
   content: "\e044";
 }
-/* line 84, bootstrap\glyphicons.less */
 .glyphicon-print:before {
   content: "\e045";
 }
-/* line 85, bootstrap\glyphicons.less */
 .glyphicon-camera:before {
   content: "\e046";
 }
-/* line 86, bootstrap\glyphicons.less */
 .glyphicon-font:before {
   content: "\e047";
 }
-/* line 87, bootstrap\glyphicons.less */
 .glyphicon-bold:before {
   content: "\e048";
 }
-/* line 88, bootstrap\glyphicons.less */
 .glyphicon-italic:before {
   content: "\e049";
 }
-/* line 89, bootstrap\glyphicons.less */
 .glyphicon-text-height:before {
   content: "\e050";
 }
-/* line 90, bootstrap\glyphicons.less */
 .glyphicon-text-width:before {
   content: "\e051";
 }
-/* line 91, bootstrap\glyphicons.less */
 .glyphicon-align-left:before {
   content: "\e052";
 }
-/* line 92, bootstrap\glyphicons.less */
 .glyphicon-align-center:before {
   content: "\e053";
 }
-/* line 93, bootstrap\glyphicons.less */
 .glyphicon-align-right:before {
   content: "\e054";
 }
-/* line 94, bootstrap\glyphicons.less */
 .glyphicon-align-justify:before {
   content: "\e055";
 }
-/* line 95, bootstrap\glyphicons.less */
 .glyphicon-list:before {
   content: "\e056";
 }
-/* line 96, bootstrap\glyphicons.less */
 .glyphicon-indent-left:before {
   content: "\e057";
 }
-/* line 97, bootstrap\glyphicons.less */
 .glyphicon-indent-right:before {
   content: "\e058";
 }
-/* line 98, bootstrap\glyphicons.less */
 .glyphicon-facetime-video:before {
   content: "\e059";
 }
-/* line 99, bootstrap\glyphicons.less */
 .glyphicon-picture:before {
   content: "\e060";
 }
-/* line 100, bootstrap\glyphicons.less */
 .glyphicon-map-marker:before {
   content: "\e062";
 }
-/* line 101, bootstrap\glyphicons.less */
 .glyphicon-adjust:before {
   content: "\e063";
 }
-/* line 102, bootstrap\glyphicons.less */
 .glyphicon-tint:before {
   content: "\e064";
 }
-/* line 103, bootstrap\glyphicons.less */
 .glyphicon-edit:before {
   content: "\e065";
 }
-/* line 104, bootstrap\glyphicons.less */
 .glyphicon-share:before {
   content: "\e066";
 }
-/* line 105, bootstrap\glyphicons.less */
 .glyphicon-check:before {
   content: "\e067";
 }
-/* line 106, bootstrap\glyphicons.less */
 .glyphicon-move:before {
   content: "\e068";
 }
-/* line 107, bootstrap\glyphicons.less */
 .glyphicon-step-backward:before {
   content: "\e069";
 }
-/* line 108, bootstrap\glyphicons.less */
 .glyphicon-fast-backward:before {
   content: "\e070";
 }
-/* line 109, bootstrap\glyphicons.less */
 .glyphicon-backward:before {
   content: "\e071";
 }
-/* line 110, bootstrap\glyphicons.less */
 .glyphicon-play:before {
   content: "\e072";
 }
-/* line 111, bootstrap\glyphicons.less */
 .glyphicon-pause:before {
   content: "\e073";
 }
-/* line 112, bootstrap\glyphicons.less */
 .glyphicon-stop:before {
   content: "\e074";
 }
-/* line 113, bootstrap\glyphicons.less */
 .glyphicon-forward:before {
   content: "\e075";
 }
-/* line 114, bootstrap\glyphicons.less */
 .glyphicon-fast-forward:before {
   content: "\e076";
 }
-/* line 115, bootstrap\glyphicons.less */
 .glyphicon-step-forward:before {
   content: "\e077";
 }
-/* line 116, bootstrap\glyphicons.less */
 .glyphicon-eject:before {
   content: "\e078";
 }
-/* line 117, bootstrap\glyphicons.less */
 .glyphicon-chevron-left:before {
   content: "\e079";
 }
-/* line 118, bootstrap\glyphicons.less */
 .glyphicon-chevron-right:before {
   content: "\e080";
 }
-/* line 119, bootstrap\glyphicons.less */
 .glyphicon-plus-sign:before {
   content: "\e081";
 }
-/* line 120, bootstrap\glyphicons.less */
 .glyphicon-minus-sign:before {
   content: "\e082";
 }
-/* line 121, bootstrap\glyphicons.less */
 .glyphicon-remove-sign:before {
   content: "\e083";
 }
-/* line 122, bootstrap\glyphicons.less */
 .glyphicon-ok-sign:before {
   content: "\e084";
 }
-/* line 123, bootstrap\glyphicons.less */
 .glyphicon-question-sign:before {
   content: "\e085";
 }
-/* line 124, bootstrap\glyphicons.less */
 .glyphicon-info-sign:before {
   content: "\e086";
 }
-/* line 125, bootstrap\glyphicons.less */
 .glyphicon-screenshot:before {
   content: "\e087";
 }
-/* line 126, bootstrap\glyphicons.less */
 .glyphicon-remove-circle:before {
   content: "\e088";
 }
-/* line 127, bootstrap\glyphicons.less */
 .glyphicon-ok-circle:before {
   content: "\e089";
 }
-/* line 128, bootstrap\glyphicons.less */
 .glyphicon-ban-circle:before {
   content: "\e090";
 }
-/* line 129, bootstrap\glyphicons.less */
 .glyphicon-arrow-left:before {
   content: "\e091";
 }
-/* line 130, bootstrap\glyphicons.less */
 .glyphicon-arrow-right:before {
   content: "\e092";
 }
-/* line 131, bootstrap\glyphicons.less */
 .glyphicon-arrow-up:before {
   content: "\e093";
 }
-/* line 132, bootstrap\glyphicons.less */
 .glyphicon-arrow-down:before {
   content: "\e094";
 }
-/* line 133, bootstrap\glyphicons.less */
 .glyphicon-share-alt:before {
   content: "\e095";
 }
-/* line 134, bootstrap\glyphicons.less */
 .glyphicon-resize-full:before {
   content: "\e096";
 }
-/* line 135, bootstrap\glyphicons.less */
 .glyphicon-resize-small:before {
   content: "\e097";
 }
-/* line 136, bootstrap\glyphicons.less */
 .glyphicon-exclamation-sign:before {
   content: "\e101";
 }
-/* line 137, bootstrap\glyphicons.less */
 .glyphicon-gift:before {
   content: "\e102";
 }
-/* line 138, bootstrap\glyphicons.less */
 .glyphicon-leaf:before {
   content: "\e103";
 }
-/* line 139, bootstrap\glyphicons.less */
 .glyphicon-fire:before {
   content: "\e104";
 }
-/* line 140, bootstrap\glyphicons.less */
 .glyphicon-eye-open:before {
   content: "\e105";
 }
-/* line 141, bootstrap\glyphicons.less */
 .glyphicon-eye-close:before {
   content: "\e106";
 }
-/* line 142, bootstrap\glyphicons.less */
 .glyphicon-warning-sign:before {
   content: "\e107";
 }
-/* line 143, bootstrap\glyphicons.less */
 .glyphicon-plane:before {
   content: "\e108";
 }
-/* line 144, bootstrap\glyphicons.less */
 .glyphicon-calendar:before {
   content: "\e109";
 }
-/* line 145, bootstrap\glyphicons.less */
 .glyphicon-random:before {
   content: "\e110";
 }
-/* line 146, bootstrap\glyphicons.less */
 .glyphicon-comment:before {
   content: "\e111";
 }
-/* line 147, bootstrap\glyphicons.less */
 .glyphicon-magnet:before {
   content: "\e112";
 }
-/* line 148, bootstrap\glyphicons.less */
 .glyphicon-chevron-up:before {
   content: "\e113";
 }
-/* line 149, bootstrap\glyphicons.less */
 .glyphicon-chevron-down:before {
   content: "\e114";
 }
-/* line 150, bootstrap\glyphicons.less */
 .glyphicon-retweet:before {
   content: "\e115";
 }
-/* line 151, bootstrap\glyphicons.less */
 .glyphicon-shopping-cart:before {
   content: "\e116";
 }
-/* line 152, bootstrap\glyphicons.less */
 .glyphicon-folder-close:before {
   content: "\e117";
 }
-/* line 153, bootstrap\glyphicons.less */
 .glyphicon-folder-open:before {
   content: "\e118";
 }
-/* line 154, bootstrap\glyphicons.less */
 .glyphicon-resize-vertical:before {
   content: "\e119";
 }
-/* line 155, bootstrap\glyphicons.less */
 .glyphicon-resize-horizontal:before {
   content: "\e120";
 }
-/* line 156, bootstrap\glyphicons.less */
 .glyphicon-hdd:before {
   content: "\e121";
 }
-/* line 157, bootstrap\glyphicons.less */
 .glyphicon-bullhorn:before {
   content: "\e122";
 }
-/* line 158, bootstrap\glyphicons.less */
 .glyphicon-bell:before {
   content: "\e123";
 }
-/* line 159, bootstrap\glyphicons.less */
 .glyphicon-certificate:before {
   content: "\e124";
 }
-/* line 160, bootstrap\glyphicons.less */
 .glyphicon-thumbs-up:before {
   content: "\e125";
 }
-/* line 161, bootstrap\glyphicons.less */
 .glyphicon-thumbs-down:before {
   content: "\e126";
 }
-/* line 162, bootstrap\glyphicons.less */
 .glyphicon-hand-right:before {
   content: "\e127";
 }
-/* line 163, bootstrap\glyphicons.less */
 .glyphicon-hand-left:before {
   content: "\e128";
 }
-/* line 164, bootstrap\glyphicons.less */
 .glyphicon-hand-up:before {
   content: "\e129";
 }
-/* line 165, bootstrap\glyphicons.less */
 .glyphicon-hand-down:before {
   content: "\e130";
 }
-/* line 166, bootstrap\glyphicons.less */
 .glyphicon-circle-arrow-right:before {
   content: "\e131";
 }
-/* line 167, bootstrap\glyphicons.less */
 .glyphicon-circle-arrow-left:before {
   content: "\e132";
 }
-/* line 168, bootstrap\glyphicons.less */
 .glyphicon-circle-arrow-up:before {
   content: "\e133";
 }
-/* line 169, bootstrap\glyphicons.less */
 .glyphicon-circle-arrow-down:before {
   content: "\e134";
 }
-/* line 170, bootstrap\glyphicons.less */
 .glyphicon-globe:before {
   content: "\e135";
 }
-/* line 171, bootstrap\glyphicons.less */
 .glyphicon-wrench:before {
   content: "\e136";
 }
-/* line 172, bootstrap\glyphicons.less */
 .glyphicon-tasks:before {
   content: "\e137";
 }
-/* line 173, bootstrap\glyphicons.less */
 .glyphicon-filter:before {
   content: "\e138";
 }
-/* line 174, bootstrap\glyphicons.less */
 .glyphicon-briefcase:before {
   content: "\e139";
 }
-/* line 175, bootstrap\glyphicons.less */
 .glyphicon-fullscreen:before {
   content: "\e140";
 }
-/* line 176, bootstrap\glyphicons.less */
 .glyphicon-dashboard:before {
   content: "\e141";
 }
-/* line 177, bootstrap\glyphicons.less */
 .glyphicon-paperclip:before {
   content: "\e142";
 }
-/* line 178, bootstrap\glyphicons.less */
 .glyphicon-heart-empty:before {
   content: "\e143";
 }
-/* line 179, bootstrap\glyphicons.less */
 .glyphicon-link:before {
   content: "\e144";
 }
-/* line 180, bootstrap\glyphicons.less */
 .glyphicon-phone:before {
   content: "\e145";
 }
-/* line 181, bootstrap\glyphicons.less */
 .glyphicon-pushpin:before {
   content: "\e146";
 }
-/* line 182, bootstrap\glyphicons.less */
 .glyphicon-usd:before {
   content: "\e148";
 }
-/* line 183, bootstrap\glyphicons.less */
 .glyphicon-gbp:before {
   content: "\e149";
 }
-/* line 184, bootstrap\glyphicons.less */
 .glyphicon-sort:before {
   content: "\e150";
 }
-/* line 185, bootstrap\glyphicons.less */
 .glyphicon-sort-by-alphabet:before {
   content: "\e151";
 }
-/* line 186, bootstrap\glyphicons.less */
 .glyphicon-sort-by-alphabet-alt:before {
   content: "\e152";
 }
-/* line 187, bootstrap\glyphicons.less */
 .glyphicon-sort-by-order:before {
   content: "\e153";
 }
-/* line 188, bootstrap\glyphicons.less */
 .glyphicon-sort-by-order-alt:before {
   content: "\e154";
 }
-/* line 189, bootstrap\glyphicons.less */
 .glyphicon-sort-by-attributes:before {
   content: "\e155";
 }
-/* line 190, bootstrap\glyphicons.less */
 .glyphicon-sort-by-attributes-alt:before {
   content: "\e156";
 }
-/* line 191, bootstrap\glyphicons.less */
 .glyphicon-unchecked:before {
   content: "\e157";
 }
-/* line 192, bootstrap\glyphicons.less */
 .glyphicon-expand:before {
   content: "\e158";
 }
-/* line 193, bootstrap\glyphicons.less */
 .glyphicon-collapse-down:before {
   content: "\e159";
 }
-/* line 194, bootstrap\glyphicons.less */
 .glyphicon-collapse-up:before {
   content: "\e160";
 }
-/* line 195, bootstrap\glyphicons.less */
 .glyphicon-log-in:before {
   content: "\e161";
 }
-/* line 196, bootstrap\glyphicons.less */
 .glyphicon-flash:before {
   content: "\e162";
 }
-/* line 197, bootstrap\glyphicons.less */
 .glyphicon-log-out:before {
   content: "\e163";
 }
-/* line 198, bootstrap\glyphicons.less */
 .glyphicon-new-window:before {
   content: "\e164";
 }
-/* line 199, bootstrap\glyphicons.less */
 .glyphicon-record:before {
   content: "\e165";
 }
-/* line 200, bootstrap\glyphicons.less */
 .glyphicon-save:before {
   content: "\e166";
 }
-/* line 201, bootstrap\glyphicons.less */
 .glyphicon-open:before {
   content: "\e167";
 }
-/* line 202, bootstrap\glyphicons.less */
 .glyphicon-saved:before {
   content: "\e168";
 }
-/* line 203, bootstrap\glyphicons.less */
 .glyphicon-import:before {
   content: "\e169";
 }
-/* line 204, bootstrap\glyphicons.less */
 .glyphicon-export:before {
   content: "\e170";
 }
-/* line 205, bootstrap\glyphicons.less */
 .glyphicon-send:before {
   content: "\e171";
 }
-/* line 206, bootstrap\glyphicons.less */
 .glyphicon-floppy-disk:before {
   content: "\e172";
 }
-/* line 207, bootstrap\glyphicons.less */
 .glyphicon-floppy-saved:before {
   content: "\e173";
 }
-/* line 208, bootstrap\glyphicons.less */
 .glyphicon-floppy-remove:before {
   content: "\e174";
 }
-/* line 209, bootstrap\glyphicons.less */
 .glyphicon-floppy-save:before {
   content: "\e175";
 }
-/* line 210, bootstrap\glyphicons.less */
 .glyphicon-floppy-open:before {
   content: "\e176";
 }
-/* line 211, bootstrap\glyphicons.less */
 .glyphicon-credit-card:before {
   content: "\e177";
 }
-/* line 212, bootstrap\glyphicons.less */
 .glyphicon-transfer:before {
   content: "\e178";
 }
-/* line 213, bootstrap\glyphicons.less */
 .glyphicon-cutlery:before {
   content: "\e179";
 }
-/* line 214, bootstrap\glyphicons.less */
 .glyphicon-header:before {
   content: "\e180";
 }
-/* line 215, bootstrap\glyphicons.less */
 .glyphicon-compressed:before {
   content: "\e181";
 }
-/* line 216, bootstrap\glyphicons.less */
 .glyphicon-earphone:before {
   content: "\e182";
 }
-/* line 217, bootstrap\glyphicons.less */
 .glyphicon-phone-alt:before {
   content: "\e183";
 }
-/* line 218, bootstrap\glyphicons.less */
 .glyphicon-tower:before {
   content: "\e184";
 }
-/* line 219, bootstrap\glyphicons.less */
 .glyphicon-stats:before {
   content: "\e185";
 }
-/* line 220, bootstrap\glyphicons.less */
 .glyphicon-sd-video:before {
   content: "\e186";
 }
-/* line 221, bootstrap\glyphicons.less */
 .glyphicon-hd-video:before {
   content: "\e187";
 }
-/* line 222, bootstrap\glyphicons.less */
 .glyphicon-subtitles:before {
   content: "\e188";
 }
-/* line 223, bootstrap\glyphicons.less */
 .glyphicon-sound-stereo:before {
   content: "\e189";
 }
-/* line 224, bootstrap\glyphicons.less */
 .glyphicon-sound-dolby:before {
   content: "\e190";
 }
-/* line 225, bootstrap\glyphicons.less */
 .glyphicon-sound-5-1:before {
   content: "\e191";
 }
-/* line 226, bootstrap\glyphicons.less */
 .glyphicon-sound-6-1:before {
   content: "\e192";
 }
-/* line 227, bootstrap\glyphicons.less */
 .glyphicon-sound-7-1:before {
   content: "\e193";
 }
-/* line 228, bootstrap\glyphicons.less */
 .glyphicon-copyright-mark:before {
   content: "\e194";
 }
-/* line 229, bootstrap\glyphicons.less */
 .glyphicon-registration-mark:before {
   content: "\e195";
 }
-/* line 230, bootstrap\glyphicons.less */
 .glyphicon-cloud-download:before {
   content: "\e197";
 }
-/* line 231, bootstrap\glyphicons.less */
 .glyphicon-cloud-upload:before {
   content: "\e198";
 }
-/* line 232, bootstrap\glyphicons.less */
 .glyphicon-tree-conifer:before {
   content: "\e199";
 }
-/* line 233, bootstrap\glyphicons.less */
 .glyphicon-tree-deciduous:before {
   content: "\e200";
 }
-/* line 11, bootstrap\scaffolding.less */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 14, bootstrap\scaffolding.less */
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 22, bootstrap\scaffolding.less */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-/* line 27, bootstrap\scaffolding.less */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -1154,7 +887,6 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
-/* line 36, bootstrap\scaffolding.less */
 input,
 button,
 select,
@@ -1163,32 +895,26 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-/* line 48, bootstrap\scaffolding.less */
 a {
   color: #428bca;
   text-decoration: none;
 }
-/* line 52, bootstrap\scaffolding.less */
 a:hover,
 a:focus {
   color: #2a6496;
   text-decoration: underline;
 }
-/* line 58, bootstrap\scaffolding.less */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 69, bootstrap\scaffolding.less */
 figure {
   margin: 0;
 }
-/* line 76, bootstrap\scaffolding.less */
 img {
   vertical-align: middle;
 }
-/* line 81, bootstrap\scaffolding.less */
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -1199,11 +925,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* line 86, bootstrap\scaffolding.less */
 .img-rounded {
   border-radius: 6px;
 }
-/* line 93, bootstrap\scaffolding.less */
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -1211,24 +935,22 @@ img {
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   width: 100% \9;
   max-width: 100%;
   height: auto;
 }
-/* line 106, bootstrap\scaffolding.less */
 .img-circle {
   border-radius: 50%;
 }
-/* line 113, bootstrap\scaffolding.less */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
-/* line 125, bootstrap\scaffolding.less */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1239,7 +961,6 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-/* line 141, bootstrap\scaffolding.less */
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
   position: static;
@@ -1249,7 +970,6 @@ hr {
   overflow: visible;
   clip: auto;
 }
-/* line 9, bootstrap\type.less */
 h1,
 h2,
 h3,
@@ -1267,7 +987,6 @@ h6,
   line-height: 1.1;
   color: inherit;
 }
-/* line 16, bootstrap\type.less */
 h1 small,
 h2 small,
 h3 small,
@@ -1296,7 +1015,6 @@ h6 .small,
   line-height: 1;
   color: #777777;
 }
-/* line 24, bootstrap\type.less */
 h1,
 .h1,
 h2,
@@ -1306,7 +1024,6 @@ h3,
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 30, bootstrap\type.less */
 h1 small,
 .h1 small,
 h2 small,
@@ -1321,7 +1038,6 @@ h3 .small,
 .h3 .small {
   font-size: 65%;
 }
-/* line 35, bootstrap\type.less */
 h4,
 .h4,
 h5,
@@ -1331,7 +1047,6 @@ h6,
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 41, bootstrap\type.less */
 h4 small,
 .h4 small,
 h5 small,
@@ -1346,41 +1061,33 @@ h6 .small,
 .h6 .small {
   font-size: 75%;
 }
-/* line 47, bootstrap\type.less */
 h1,
 .h1 {
   font-size: 36px;
 }
-/* line 48, bootstrap\type.less */
 h2,
 .h2 {
   font-size: 30px;
 }
-/* line 49, bootstrap\type.less */
 h3,
 .h3 {
   font-size: 24px;
 }
-/* line 50, bootstrap\type.less */
 h4,
 .h4 {
   font-size: 18px;
 }
-/* line 51, bootstrap\type.less */
 h5,
 .h5 {
   font-size: 14px;
 }
-/* line 52, bootstrap\type.less */
 h6,
 .h6 {
   font-size: 12px;
 }
-/* line 58, bootstrap\type.less */
 p {
   margin: 0 0 10px;
 }
-/* line 62, bootstrap\type.less */
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1388,199 +1095,155 @@ p {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
-  /* line 68, bootstrap\type.less */
   .lead {
     font-size: 21px;
   }
 }
-/* line 78, bootstrap\type.less */
 small,
 .small {
   font-size: 85%;
 }
-/* line 84, bootstrap\type.less */
 cite {
   font-style: normal;
 }
-/* line 88, bootstrap\type.less */
 mark,
 .mark {
   background-color: #fcf8e3;
   padding: .2em;
 }
-/* line 95, bootstrap\type.less */
 .text-left {
   text-align: left;
 }
-/* line 96, bootstrap\type.less */
 .text-right {
   text-align: right;
 }
-/* line 97, bootstrap\type.less */
 .text-center {
   text-align: center;
 }
-/* line 98, bootstrap\type.less */
 .text-justify {
   text-align: justify;
 }
-/* line 99, bootstrap\type.less */
 .text-nowrap {
   white-space: nowrap;
 }
-/* line 102, bootstrap\type.less */
 .text-lowercase {
   text-transform: lowercase;
 }
-/* line 103, bootstrap\type.less */
 .text-uppercase {
   text-transform: uppercase;
 }
-/* line 104, bootstrap\type.less */
 .text-capitalize {
   text-transform: capitalize;
 }
-/* line 107, bootstrap\type.less */
 .text-muted {
   color: #777777;
 }
-/* line 110, bootstrap\type.less */
 .text-primary {
   color: #428bca;
 }
-/* line 5, bootstrap\mixins\text-emphasis.less */
 a.text-primary:hover {
   color: #3071a9;
 }
-/* line 113, bootstrap\type.less */
 .text-success {
   color: #3c763d;
 }
-/* line 5, bootstrap\mixins\text-emphasis.less */
 a.text-success:hover {
   color: #2b542c;
 }
-/* line 116, bootstrap\type.less */
 .text-info {
   color: #31708f;
 }
-/* line 5, bootstrap\mixins\text-emphasis.less */
 a.text-info:hover {
   color: #245269;
 }
-/* line 119, bootstrap\type.less */
 .text-warning {
   color: #8a6d3b;
 }
-/* line 5, bootstrap\mixins\text-emphasis.less */
 a.text-warning:hover {
   color: #66512c;
 }
-/* line 122, bootstrap\type.less */
 .text-danger {
   color: #a94442;
 }
-/* line 5, bootstrap\mixins\text-emphasis.less */
 a.text-danger:hover {
   color: #843534;
 }
-/* line 129, bootstrap\type.less */
 .bg-primary {
   color: #fff;
   background-color: #428bca;
 }
-/* line 5, bootstrap\mixins\background-variant.less */
 a.bg-primary:hover {
   background-color: #3071a9;
 }
-/* line 135, bootstrap\type.less */
 .bg-success {
   background-color: #dff0d8;
 }
-/* line 5, bootstrap\mixins\background-variant.less */
 a.bg-success:hover {
   background-color: #c1e2b3;
 }
-/* line 138, bootstrap\type.less */
 .bg-info {
   background-color: #d9edf7;
 }
-/* line 5, bootstrap\mixins\background-variant.less */
 a.bg-info:hover {
   background-color: #afd9ee;
 }
-/* line 141, bootstrap\type.less */
 .bg-warning {
   background-color: #fcf8e3;
 }
-/* line 5, bootstrap\mixins\background-variant.less */
 a.bg-warning:hover {
   background-color: #f7ecb5;
 }
-/* line 144, bootstrap\type.less */
 .bg-danger {
   background-color: #f2dede;
 }
-/* line 5, bootstrap\mixins\background-variant.less */
 a.bg-danger:hover {
   background-color: #e4b9b9;
 }
-/* line 152, bootstrap\type.less */
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 163, bootstrap\type.less */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 167, bootstrap\type.less */
 ul ul,
 ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
 }
-/* line 176, bootstrap\type.less */
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-/* line 182, bootstrap\type.less */
 .list-inline {
   padding-left: 0;
   list-style: none;
   margin-left: -5px;
 }
-/* line 186, bootstrap\type.less */
 .list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 194, bootstrap\type.less */
 dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 198, bootstrap\type.less */
 dt,
 dd {
   line-height: 1.42857143;
 }
-/* line 202, bootstrap\type.less */
 dt {
   font-weight: bold;
 }
-/* line 205, bootstrap\type.less */
 dd {
   margin-left: 0;
 }
 @media (min-width: 768px) {
-  /* line 220, bootstrap\type.less */
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -1590,36 +1253,30 @@ dd {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* line 227, bootstrap\type.less */
   .dl-horizontal dd {
     margin-left: 180px;
   }
 }
-/* line 238, bootstrap\type.less */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #777777;
 }
-/* line 244, bootstrap\type.less */
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
-/* line 250, bootstrap\type.less */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eeeeee;
 }
-/* line 259, bootstrap\type.less */
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 266, bootstrap\type.less */
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -1628,13 +1285,11 @@ blockquote .small {
   line-height: 1.42857143;
   color: #777777;
 }
-/* line 274, bootstrap\type.less */
 blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
-/* line 283, bootstrap\type.less */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -1643,7 +1298,6 @@ blockquote.pull-right {
   border-left: 0;
   text-align: right;
 }
-/* line 295, bootstrap\type.less */
 .blockquote-reverse footer:before,
 blockquote.pull-right footer:before,
 .blockquote-reverse small:before,
@@ -1652,7 +1306,6 @@ blockquote.pull-right small:before,
 blockquote.pull-right .small:before {
   content: '';
 }
-/* line 296, bootstrap\type.less */
 .blockquote-reverse footer:after,
 blockquote.pull-right footer:after,
 .blockquote-reverse small:after,
@@ -1661,25 +1314,21 @@ blockquote.pull-right small:after,
 blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
-/* line 303, bootstrap\type.less */
 blockquote:before,
 blockquote:after {
   content: "";
 }
-/* line 309, bootstrap\type.less */
 address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857143;
 }
-/* line 7, bootstrap\code.less */
 code,
 kbd,
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-/* line 15, bootstrap\code.less */
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -1687,24 +1336,19 @@ code {
   background-color: #f9f2f4;
   border-radius: 4px;
 }
-/* line 24, bootstrap\code.less */
 kbd {
   padding: 2px 4px;
   font-size: 90%;
   color: #ffffff;
   background-color: #333333;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-/* line 32, bootstrap\code.less */
 kbd kbd {
   padding: 0;
   font-size: 100%;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 40, bootstrap\code.less */
 pre {
   display: block;
   padding: 9.5px;
@@ -1718,7 +1362,6 @@ pre {
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
-/* line 54, bootstrap\code.less */
 pre code {
   padding: 0;
   font-size: inherit;
@@ -1727,12 +1370,10 @@ pre code {
   background-color: transparent;
   border-radius: 0;
 }
-/* line 65, bootstrap\code.less */
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
-/* line 10, bootstrap\grid.less */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -1740,895 +1381,677 @@ pre code {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 13, bootstrap\grid.less */
   .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 16, bootstrap\grid.less */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 19, bootstrap\grid.less */
   .container {
     width: 1170px;
   }
 }
-/* line 30, bootstrap\grid.less */
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 39, bootstrap\grid.less */
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 17, bootstrap\mixins\grid-framework.less */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 39, bootstrap\mixins\grid-framework.less */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-12 {
   width: 100%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-11 {
   width: 91.66666667%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-10 {
   width: 83.33333333%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-9 {
   width: 75%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-8 {
   width: 66.66666667%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-7 {
   width: 58.33333333%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-6 {
   width: 50%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-5 {
   width: 41.66666667%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-4 {
   width: 33.33333333%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-3 {
   width: 25%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-2 {
   width: 16.66666667%;
 }
-/* line 47, bootstrap\mixins\grid-framework.less */
 .col-xs-1 {
   width: 8.33333333%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-12 {
   right: 100%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-11 {
   right: 91.66666667%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-10 {
   right: 83.33333333%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-9 {
   right: 75%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-8 {
   right: 66.66666667%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-7 {
   right: 58.33333333%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-6 {
   right: 50%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-5 {
   right: 41.66666667%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-4 {
   right: 33.33333333%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-3 {
   right: 25%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-2 {
   right: 16.66666667%;
 }
-/* line 62, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-1 {
   right: 8.33333333%;
 }
-/* line 67, bootstrap\mixins\grid-framework.less */
 .col-xs-pull-0 {
   right: auto;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-12 {
   left: 100%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-11 {
   left: 91.66666667%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-10 {
   left: 83.33333333%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-9 {
   left: 75%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-8 {
   left: 66.66666667%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-7 {
   left: 58.33333333%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-6 {
   left: 50%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-5 {
   left: 41.66666667%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-4 {
   left: 33.33333333%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-3 {
   left: 25%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-2 {
   left: 16.66666667%;
 }
-/* line 52, bootstrap\mixins\grid-framework.less */
 .col-xs-push-1 {
   left: 8.33333333%;
 }
-/* line 57, bootstrap\mixins\grid-framework.less */
 .col-xs-push-0 {
   left: auto;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-12 {
   margin-left: 100%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-11 {
   margin-left: 91.66666667%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-10 {
   margin-left: 83.33333333%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-9 {
   margin-left: 75%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-8 {
   margin-left: 66.66666667%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-7 {
   margin-left: 58.33333333%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-6 {
   margin-left: 50%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-5 {
   margin-left: 41.66666667%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-4 {
   margin-left: 33.33333333%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-3 {
   margin-left: 25%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-2 {
   margin-left: 16.66666667%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-1 {
   margin-left: 8.33333333%;
 }
-/* line 72, bootstrap\mixins\grid-framework.less */
 .col-xs-offset-0 {
   margin-left: 0%;
 }
 @media (min-width: 768px) {
-  /* line 39, bootstrap\mixins\grid-framework.less */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-12 {
     width: 100%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-11 {
     width: 91.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-10 {
     width: 83.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-9 {
     width: 75%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-8 {
     width: 66.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-7 {
     width: 58.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-6 {
     width: 50%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-5 {
     width: 41.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-4 {
     width: 33.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-3 {
     width: 25%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-2 {
     width: 16.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-sm-1 {
     width: 8.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-12 {
     right: 100%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-11 {
     right: 91.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-10 {
     right: 83.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-9 {
     right: 75%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-8 {
     right: 66.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-7 {
     right: 58.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-6 {
     right: 50%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-5 {
     right: 41.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-4 {
     right: 33.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-3 {
     right: 25%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-2 {
     right: 16.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-1 {
     right: 8.33333333%;
   }
-  /* line 67, bootstrap\mixins\grid-framework.less */
   .col-sm-pull-0 {
     right: auto;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-12 {
     left: 100%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-11 {
     left: 91.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-10 {
     left: 83.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-9 {
     left: 75%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-8 {
     left: 66.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-7 {
     left: 58.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-6 {
     left: 50%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-5 {
     left: 41.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-4 {
     left: 33.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-3 {
     left: 25%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-2 {
     left: 16.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-sm-push-1 {
     left: 8.33333333%;
   }
-  /* line 57, bootstrap\mixins\grid-framework.less */
   .col-sm-push-0 {
     left: auto;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-12 {
     margin-left: 100%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-11 {
     margin-left: 91.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-10 {
     margin-left: 83.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-9 {
     margin-left: 75%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-8 {
     margin-left: 66.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-7 {
     margin-left: 58.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-6 {
     margin-left: 50%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-5 {
     margin-left: 41.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-4 {
     margin-left: 33.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-3 {
     margin-left: 25%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-2 {
     margin-left: 16.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-1 {
     margin-left: 8.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-sm-offset-0 {
     margin-left: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 39, bootstrap\mixins\grid-framework.less */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-12 {
     width: 100%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-11 {
     width: 91.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-10 {
     width: 83.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-9 {
     width: 75%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-8 {
     width: 66.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-7 {
     width: 58.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-6 {
     width: 50%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-5 {
     width: 41.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-4 {
     width: 33.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-3 {
     width: 25%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-2 {
     width: 16.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-md-1 {
     width: 8.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-12 {
     right: 100%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-11 {
     right: 91.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-10 {
     right: 83.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-9 {
     right: 75%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-8 {
     right: 66.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-7 {
     right: 58.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-6 {
     right: 50%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-5 {
     right: 41.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-4 {
     right: 33.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-3 {
     right: 25%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-2 {
     right: 16.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-md-pull-1 {
     right: 8.33333333%;
   }
-  /* line 67, bootstrap\mixins\grid-framework.less */
   .col-md-pull-0 {
     right: auto;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-12 {
     left: 100%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-11 {
     left: 91.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-10 {
     left: 83.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-9 {
     left: 75%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-8 {
     left: 66.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-7 {
     left: 58.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-6 {
     left: 50%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-5 {
     left: 41.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-4 {
     left: 33.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-3 {
     left: 25%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-2 {
     left: 16.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-md-push-1 {
     left: 8.33333333%;
   }
-  /* line 57, bootstrap\mixins\grid-framework.less */
   .col-md-push-0 {
     left: auto;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-12 {
     margin-left: 100%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-11 {
     margin-left: 91.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-10 {
     margin-left: 83.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-9 {
     margin-left: 75%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-8 {
     margin-left: 66.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-7 {
     margin-left: 58.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-6 {
     margin-left: 50%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-5 {
     margin-left: 41.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-4 {
     margin-left: 33.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-3 {
     margin-left: 25%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-2 {
     margin-left: 16.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-1 {
     margin-left: 8.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-md-offset-0 {
     margin-left: 0%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 39, bootstrap\mixins\grid-framework.less */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-12 {
     width: 100%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-11 {
     width: 91.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-10 {
     width: 83.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-9 {
     width: 75%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-8 {
     width: 66.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-7 {
     width: 58.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-6 {
     width: 50%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-5 {
     width: 41.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-4 {
     width: 33.33333333%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-3 {
     width: 25%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-2 {
     width: 16.66666667%;
   }
-  /* line 47, bootstrap\mixins\grid-framework.less */
   .col-lg-1 {
     width: 8.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-12 {
     right: 100%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-11 {
     right: 91.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-10 {
     right: 83.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-9 {
     right: 75%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-8 {
     right: 66.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-7 {
     right: 58.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-6 {
     right: 50%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-5 {
     right: 41.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-4 {
     right: 33.33333333%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-3 {
     right: 25%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-2 {
     right: 16.66666667%;
   }
-  /* line 62, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-1 {
     right: 8.33333333%;
   }
-  /* line 67, bootstrap\mixins\grid-framework.less */
   .col-lg-pull-0 {
     right: auto;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-12 {
     left: 100%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-11 {
     left: 91.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-10 {
     left: 83.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-9 {
     left: 75%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-8 {
     left: 66.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-7 {
     left: 58.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-6 {
     left: 50%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-5 {
     left: 41.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-4 {
     left: 33.33333333%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-3 {
     left: 25%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-2 {
     left: 16.66666667%;
   }
-  /* line 52, bootstrap\mixins\grid-framework.less */
   .col-lg-push-1 {
     left: 8.33333333%;
   }
-  /* line 57, bootstrap\mixins\grid-framework.less */
   .col-lg-push-0 {
     left: auto;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-12 {
     margin-left: 100%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-11 {
     margin-left: 91.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-10 {
     margin-left: 83.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-9 {
     margin-left: 75%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-8 {
     margin-left: 66.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-7 {
     margin-left: 58.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-6 {
     margin-left: 50%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-5 {
     margin-left: 41.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-4 {
     margin-left: 33.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-3 {
     margin-left: 25%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-2 {
     margin-left: 16.66666667%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-1 {
     margin-left: 8.33333333%;
   }
-  /* line 72, bootstrap\mixins\grid-framework.less */
   .col-lg-offset-0 {
     margin-left: 0%;
   }
 }
-/* line 6, bootstrap\tables.less */
 table {
   background-color: transparent;
 }
-/* line 9, bootstrap\tables.less */
 th {
   text-align: left;
 }
-/* line 16, bootstrap\tables.less */
 .table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
 }
-/* line 25, bootstrap\tables.less */
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
@@ -2640,12 +2063,10 @@ th {
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
-/* line 35, bootstrap\tables.less */
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #dddddd;
 }
-/* line 44, bootstrap\tables.less */
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
 .table > thead:first-child > tr:first-child > th,
@@ -2654,15 +2075,12 @@ th {
 .table > thead:first-child > tr:first-child > td {
   border-top: 0;
 }
-/* line 51, bootstrap\tables.less */
 .table > tbody + tbody {
   border-top: 2px solid #dddddd;
 }
-/* line 56, bootstrap\tables.less */
 .table .table {
   background-color: #ffffff;
 }
-/* line 69, bootstrap\tables.less */
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
@@ -2671,11 +2089,9 @@ th {
 .table-condensed > tfoot > tr > td {
   padding: 5px;
 }
-/* line 82, bootstrap\tables.less */
 .table-bordered {
   border: 1px solid #dddddd;
 }
-/* line 88, bootstrap\tables.less */
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
 .table-bordered > tfoot > tr > th,
@@ -2684,35 +2100,29 @@ th {
 .table-bordered > tfoot > tr > td {
   border: 1px solid #dddddd;
 }
-/* line 95, bootstrap\tables.less */
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
   border-bottom-width: 2px;
 }
-/* line 109, bootstrap\tables.less */
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #f9f9f9;
 }
-/* line 123, bootstrap\tables.less */
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
   background-color: #f5f5f5;
 }
-/* line 135, bootstrap\tables.less */
 table col[class*="col-"] {
   position: static;
   float: none;
   display: table-column;
 }
-/* line 143, bootstrap\tables.less */
 table td[class*="col-"],
 table th[class*="col-"] {
   position: static;
   float: none;
   display: table-cell;
 }
-/* line 9, bootstrap\mixins\table-row.less */
 .table > thead > tr > td.active,
 .table > tbody > tr > td.active,
 .table > tfoot > tr > td.active,
@@ -2727,7 +2137,6 @@ table th[class*="col-"] {
 .table > tfoot > tr.active > th {
   background-color: #f5f5f5;
 }
-/* line 20, bootstrap\mixins\table-row.less */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
@@ -2735,7 +2144,6 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.active:hover > th {
   background-color: #e8e8e8;
 }
-/* line 9, bootstrap\mixins\table-row.less */
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
 .table > tfoot > tr > td.success,
@@ -2750,7 +2158,6 @@ table th[class*="col-"] {
 .table > tfoot > tr.success > th {
   background-color: #dff0d8;
 }
-/* line 20, bootstrap\mixins\table-row.less */
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
@@ -2758,7 +2165,6 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.success:hover > th {
   background-color: #d0e9c6;
 }
-/* line 9, bootstrap\mixins\table-row.less */
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
 .table > tfoot > tr > td.info,
@@ -2773,7 +2179,6 @@ table th[class*="col-"] {
 .table > tfoot > tr.info > th {
   background-color: #d9edf7;
 }
-/* line 20, bootstrap\mixins\table-row.less */
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover,
 .table-hover > tbody > tr.info:hover > td,
@@ -2781,7 +2186,6 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.info:hover > th {
   background-color: #c4e3f3;
 }
-/* line 9, bootstrap\mixins\table-row.less */
 .table > thead > tr > td.warning,
 .table > tbody > tr > td.warning,
 .table > tfoot > tr > td.warning,
@@ -2796,7 +2200,6 @@ table th[class*="col-"] {
 .table > tfoot > tr.warning > th {
   background-color: #fcf8e3;
 }
-/* line 20, bootstrap\mixins\table-row.less */
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover,
 .table-hover > tbody > tr.warning:hover > td,
@@ -2804,7 +2207,6 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.warning:hover > th {
   background-color: #faf2cc;
 }
-/* line 9, bootstrap\mixins\table-row.less */
 .table > thead > tr > td.danger,
 .table > tbody > tr > td.danger,
 .table > tfoot > tr > td.danger,
@@ -2819,7 +2221,6 @@ table th[class*="col-"] {
 .table > tfoot > tr.danger > th {
   background-color: #f2dede;
 }
-/* line 20, bootstrap\mixins\table-row.less */
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover,
 .table-hover > tbody > tr.danger:hover > td,
@@ -2828,7 +2229,6 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 @media screen and (max-width: 767px) {
-  /* line 172, bootstrap\tables.less */
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -2838,11 +2238,9 @@ table th[class*="col-"] {
     border: 1px solid #dddddd;
     -webkit-overflow-scrolling: touch;
   }
-  /* line 182, bootstrap\tables.less */
   .table-responsive > .table {
     margin-bottom: 0;
   }
-  /* line 190, bootstrap\tables.less */
   .table-responsive > .table > thead > tr > th,
   .table-responsive > .table > tbody > tr > th,
   .table-responsive > .table > tfoot > tr > th,
@@ -2851,11 +2249,9 @@ table th[class*="col-"] {
   .table-responsive > .table > tfoot > tr > td {
     white-space: nowrap;
   }
-  /* line 199, bootstrap\tables.less */
   .table-responsive > .table-bordered {
     border: 0;
   }
-  /* line 207, bootstrap\tables.less */
   .table-responsive > .table-bordered > thead > tr > th:first-child,
   .table-responsive > .table-bordered > tbody > tr > th:first-child,
   .table-responsive > .table-bordered > tfoot > tr > th:first-child,
@@ -2864,7 +2260,6 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr > td:first-child {
     border-left: 0;
   }
-  /* line 211, bootstrap\tables.less */
   .table-responsive > .table-bordered > thead > tr > th:last-child,
   .table-responsive > .table-bordered > tbody > tr > th:last-child,
   .table-responsive > .table-bordered > tfoot > tr > th:last-child,
@@ -2873,7 +2268,6 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr > td:last-child {
     border-right: 0;
   }
-  /* line 224, bootstrap\tables.less */
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .table-responsive > .table-bordered > tfoot > tr:last-child > th,
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
@@ -2881,14 +2275,12 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
-/* line 10, bootstrap\forms.less */
 fieldset {
   padding: 0;
   margin: 0;
   border: 0;
   min-width: 0;
 }
-/* line 20, bootstrap\forms.less */
 legend {
   display: block;
   width: 100%;
@@ -2900,41 +2292,34 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 32, bootstrap\forms.less */
 label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
 }
-/* line 47, bootstrap\forms.less */
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 52, bootstrap\forms.less */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
 }
-/* line 60, bootstrap\forms.less */
 input[type="file"] {
   display: block;
 }
-/* line 65, bootstrap\forms.less */
 input[type="range"] {
   display: block;
   width: 100%;
 }
-/* line 71, bootstrap\forms.less */
 select[multiple],
 select[size] {
   height: auto;
 }
-/* line 77, bootstrap\forms.less */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -2942,7 +2327,6 @@ input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 84, bootstrap\forms.less */
 output {
   display: block;
   padding-top: 7px;
@@ -2950,7 +2334,6 @@ output {
   line-height: 1.42857143;
   color: #555555;
 }
-/* line 115, bootstrap\forms.less */
 .form-control {
   display: block;
   width: 100%;
@@ -2965,30 +2348,26 @@ output {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* line 53, bootstrap\mixins\forms.less */
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
-/* line 102, bootstrap\mixins\vendor-prefixes.less */
 .form-control::-moz-placeholder {
   color: #777777;
   opacity: 1;
 }
-/* line 104, bootstrap\mixins\vendor-prefixes.less */
 .form-control:-ms-input-placeholder {
   color: #777777;
 }
-/* line 105, bootstrap\mixins\vendor-prefixes.less */
 .form-control::-webkit-input-placeholder {
   color: #777777;
 }
-/* line 141, bootstrap\forms.less */
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
@@ -2996,15 +2375,12 @@ fieldset[disabled] .form-control {
   background-color: #eeeeee;
   opacity: 1;
 }
-/* line 150, bootstrap\forms.less */
 textarea.form-control {
   height: auto;
 }
-/* line 163, bootstrap\forms.less */
 input[type="search"] {
   -webkit-appearance: none;
 }
-/* line 176, bootstrap\forms.less */
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -3012,25 +2388,21 @@ input[type="month"] {
   line-height: 34px;
   line-height: 1.42857143 \0;
 }
-/* line 184, bootstrap\forms.less */
 input[type="date"].input-sm,
 input[type="time"].input-sm,
 input[type="datetime-local"].input-sm,
 input[type="month"].input-sm {
   line-height: 30px;
 }
-/* line 187, bootstrap\forms.less */
 input[type="date"].input-lg,
 input[type="time"].input-lg,
 input[type="datetime-local"].input-lg,
 input[type="month"].input-lg {
   line-height: 46px;
 }
-/* line 198, bootstrap\forms.less */
 .form-group {
   margin-bottom: 15px;
 }
-/* line 207, bootstrap\forms.less */
 .radio,
 .checkbox {
   position: relative;
@@ -3039,7 +2411,6 @@ input[type="month"].input-lg {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 215, bootstrap\forms.less */
 .radio label,
 .checkbox label {
   padding-left: 20px;
@@ -3047,7 +2418,6 @@ input[type="month"].input-lg {
   font-weight: normal;
   cursor: pointer;
 }
-/* line 222, bootstrap\forms.less */
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -3056,12 +2426,10 @@ input[type="month"].input-lg {
   margin-left: -20px;
   margin-top: 4px \9;
 }
-/* line 231, bootstrap\forms.less */
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
-/* line 237, bootstrap\forms.less */
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
@@ -3071,13 +2439,11 @@ input[type="month"].input-lg {
   font-weight: normal;
   cursor: pointer;
 }
-/* line 246, bootstrap\forms.less */
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
-/* line 258, bootstrap\forms.less */
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"].disabled,
@@ -3086,33 +2452,28 @@ fieldset[disabled] input[type="radio"],
 fieldset[disabled] input[type="checkbox"] {
   cursor: not-allowed;
 }
-/* line 267, bootstrap\forms.less */
 .radio-inline.disabled,
 .checkbox-inline.disabled,
 fieldset[disabled] .radio-inline,
 fieldset[disabled] .checkbox-inline {
   cursor: not-allowed;
 }
-/* line 277, bootstrap\forms.less */
 .radio.disabled label,
 .checkbox.disabled label,
 fieldset[disabled] .radio label,
 fieldset[disabled] .checkbox label {
   cursor: not-allowed;
 }
-/* line 289, bootstrap\forms.less */
 .form-control-static {
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
 }
-/* line 296, bootstrap\forms.less */
 .form-control-static.input-lg,
 .form-control-static.input-sm {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 309, bootstrap\forms.less */
 .input-sm,
 .form-horizontal .form-group-sm .form-control {
   height: 30px;
@@ -3121,17 +2482,14 @@ fieldset[disabled] .checkbox label {
   line-height: 1.5;
   border-radius: 3px;
 }
-/* line 72, bootstrap\mixins\forms.less */
 select.input-sm {
   height: 30px;
   line-height: 30px;
 }
-/* line 77, bootstrap\mixins\forms.less */
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto;
 }
-/* line 313, bootstrap\forms.less */
 .input-lg,
 .form-horizontal .form-group-lg .form-control {
   height: 46px;
@@ -3140,25 +2498,20 @@ select[multiple].input-sm {
   line-height: 1.33;
   border-radius: 6px;
 }
-/* line 72, bootstrap\mixins\forms.less */
 select.input-lg {
   height: 46px;
   line-height: 46px;
 }
-/* line 77, bootstrap\mixins\forms.less */
 textarea.input-lg,
 select[multiple].input-lg {
   height: auto;
 }
-/* line 322, bootstrap\forms.less */
 .has-feedback {
   position: relative;
 }
-/* line 327, bootstrap\forms.less */
 .has-feedback .form-control {
   padding-right: 42.5px;
 }
-/* line 332, bootstrap\forms.less */
 .form-control-feedback {
   position: absolute;
   top: 25px;
@@ -3170,19 +2523,16 @@ select[multiple].input-lg {
   line-height: 34px;
   text-align: center;
 }
-/* line 343, bootstrap\forms.less */
 .input-lg + .form-control-feedback {
   width: 46px;
   height: 46px;
   line-height: 46px;
 }
-/* line 348, bootstrap\forms.less */
 .input-sm + .form-control-feedback {
   width: 30px;
   height: 30px;
   line-height: 30px;
 }
-/* line 8, bootstrap\mixins\forms.less */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -3191,29 +2541,24 @@ select[multiple].input-lg {
 .has-success .checkbox-inline {
   color: #3c763d;
 }
-/* line 17, bootstrap\mixins\forms.less */
 .has-success .form-control {
   border-color: #3c763d;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-/* line 20, bootstrap\mixins\forms.less */
 .has-success .form-control:focus {
   border-color: #2b542c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
 }
-/* line 27, bootstrap\mixins\forms.less */
 .has-success .input-group-addon {
   color: #3c763d;
   border-color: #3c763d;
   background-color: #dff0d8;
 }
-/* line 33, bootstrap\mixins\forms.less */
 .has-success .form-control-feedback {
   color: #3c763d;
 }
-/* line 8, bootstrap\mixins\forms.less */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -3222,29 +2567,24 @@ select[multiple].input-lg {
 .has-warning .checkbox-inline {
   color: #8a6d3b;
 }
-/* line 17, bootstrap\mixins\forms.less */
 .has-warning .form-control {
   border-color: #8a6d3b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-/* line 20, bootstrap\mixins\forms.less */
 .has-warning .form-control:focus {
   border-color: #66512c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
 }
-/* line 27, bootstrap\mixins\forms.less */
 .has-warning .input-group-addon {
   color: #8a6d3b;
   border-color: #8a6d3b;
   background-color: #fcf8e3;
 }
-/* line 33, bootstrap\mixins\forms.less */
 .has-warning .form-control-feedback {
   color: #8a6d3b;
 }
-/* line 8, bootstrap\mixins\forms.less */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -3253,33 +2593,27 @@ select[multiple].input-lg {
 .has-error .checkbox-inline {
   color: #a94442;
 }
-/* line 17, bootstrap\mixins\forms.less */
 .has-error .form-control {
   border-color: #a94442;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-/* line 20, bootstrap\mixins\forms.less */
 .has-error .form-control:focus {
   border-color: #843534;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
-/* line 27, bootstrap\mixins\forms.less */
 .has-error .input-group-addon {
   color: #a94442;
   border-color: #a94442;
   background-color: #f2dede;
 }
-/* line 33, bootstrap\mixins\forms.less */
 .has-error .form-control-feedback {
   color: #a94442;
 }
-/* line 367, bootstrap\forms.less */
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
-/* line 377, bootstrap\forms.less */
 .help-block {
   display: block;
   margin-top: 5px;
@@ -3287,39 +2621,32 @@ select[multiple].input-lg {
   color: #737373;
 }
 @media (min-width: 768px) {
-  /* line 402, bootstrap\forms.less */
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 409, bootstrap\forms.less */
   .form-inline .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-  /* line 415, bootstrap\forms.less */
   .form-inline .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 419, bootstrap\forms.less */
   .form-inline .input-group .input-group-addon,
   .form-inline .input-group .input-group-btn,
   .form-inline .input-group .form-control {
     width: auto;
   }
-  /* line 427, bootstrap\forms.less */
   .form-inline .input-group > .form-control {
     width: 100%;
   }
-  /* line 431, bootstrap\forms.less */
   .form-inline .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 439, bootstrap\forms.less */
   .form-inline .radio,
   .form-inline .checkbox {
     display: inline-block;
@@ -3327,23 +2654,19 @@ select[multiple].input-lg {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 446, bootstrap\forms.less */
   .form-inline .radio label,
   .form-inline .checkbox label {
     padding-left: 0;
   }
-  /* line 450, bootstrap\forms.less */
   .form-inline .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-  /* line 460, bootstrap\forms.less */
   .form-inline .has-feedback .form-control-feedback {
     top: 0;
   }
 }
-/* line 477, bootstrap\forms.less */
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -3352,42 +2675,35 @@ select[multiple].input-lg {
   margin-bottom: 0;
   padding-top: 7px;
 }
-/* line 487, bootstrap\forms.less */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px;
 }
-/* line 493, bootstrap\forms.less */
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px;
 }
 @media (min-width: 768px) {
-  /* line 500, bootstrap\forms.less */
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
     padding-top: 7px;
   }
 }
-/* line 511, bootstrap\forms.less */
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
   right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 522, bootstrap\forms.less */
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.3px;
   }
 }
 @media (min-width: 768px) {
-  /* line 532, bootstrap\forms.less */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
   }
 }
-/* line 9, bootstrap\buttons.less */
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -3407,7 +2723,6 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 25, bootstrap\buttons.less */
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus {
@@ -3415,13 +2730,11 @@ select[multiple].input-lg {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 30, bootstrap\buttons.less */
 .btn:hover,
 .btn:focus {
   color: #333333;
   text-decoration: none;
 }
-/* line 36, bootstrap\buttons.less */
 .btn:active,
 .btn.active {
   outline: 0;
@@ -3429,7 +2742,6 @@ select[multiple].input-lg {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 43, bootstrap\buttons.less */
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
@@ -3440,13 +2752,11 @@ fieldset[disabled] .btn {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 57, bootstrap\buttons.less */
 .btn-default {
   color: #333333;
   background-color: #ffffff;
   border-color: #cccccc;
 }
-/* line 11, bootstrap\mixins\buttons.less */
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
@@ -3456,13 +2766,11 @@ fieldset[disabled] .btn {
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-/* line 20, bootstrap\mixins\buttons.less */
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
 }
-/* line 28, bootstrap\mixins\buttons.less */
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -3481,18 +2789,15 @@ fieldset[disabled] .btn-default.active {
   background-color: #ffffff;
   border-color: #cccccc;
 }
-/* line 38, bootstrap\mixins\buttons.less */
 .btn-default .badge {
   color: #ffffff;
   background-color: #333333;
 }
-/* line 60, bootstrap\buttons.less */
 .btn-primary {
   color: #ffffff;
   background-color: #428bca;
   border-color: #357ebd;
 }
-/* line 11, bootstrap\mixins\buttons.less */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -3502,13 +2807,11 @@ fieldset[disabled] .btn-default.active {
   background-color: #3071a9;
   border-color: #285e8e;
 }
-/* line 20, bootstrap\mixins\buttons.less */
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
-/* line 28, bootstrap\mixins\buttons.less */
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
@@ -3527,18 +2830,15 @@ fieldset[disabled] .btn-primary.active {
   background-color: #428bca;
   border-color: #357ebd;
 }
-/* line 38, bootstrap\mixins\buttons.less */
 .btn-primary .badge {
   color: #428bca;
   background-color: #ffffff;
 }
-/* line 64, bootstrap\buttons.less */
 .btn-success {
   color: #ffffff;
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-/* line 11, bootstrap\mixins\buttons.less */
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -3548,13 +2848,11 @@ fieldset[disabled] .btn-primary.active {
   background-color: #449d44;
   border-color: #398439;
 }
-/* line 20, bootstrap\mixins\buttons.less */
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   background-image: none;
 }
-/* line 28, bootstrap\mixins\buttons.less */
 .btn-success.disabled,
 .btn-success[disabled],
 fieldset[disabled] .btn-success,
@@ -3573,18 +2871,15 @@ fieldset[disabled] .btn-success.active {
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-/* line 38, bootstrap\mixins\buttons.less */
 .btn-success .badge {
   color: #5cb85c;
   background-color: #ffffff;
 }
-/* line 68, bootstrap\buttons.less */
 .btn-info {
   color: #ffffff;
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-/* line 11, bootstrap\mixins\buttons.less */
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active,
@@ -3594,13 +2889,11 @@ fieldset[disabled] .btn-success.active {
   background-color: #31b0d5;
   border-color: #269abc;
 }
-/* line 20, bootstrap\mixins\buttons.less */
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   background-image: none;
 }
-/* line 28, bootstrap\mixins\buttons.less */
 .btn-info.disabled,
 .btn-info[disabled],
 fieldset[disabled] .btn-info,
@@ -3619,18 +2912,15 @@ fieldset[disabled] .btn-info.active {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-/* line 38, bootstrap\mixins\buttons.less */
 .btn-info .badge {
   color: #5bc0de;
   background-color: #ffffff;
 }
-/* line 72, bootstrap\buttons.less */
 .btn-warning {
   color: #ffffff;
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-/* line 11, bootstrap\mixins\buttons.less */
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
@@ -3640,13 +2930,11 @@ fieldset[disabled] .btn-info.active {
   background-color: #ec971f;
   border-color: #d58512;
 }
-/* line 20, bootstrap\mixins\buttons.less */
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   background-image: none;
 }
-/* line 28, bootstrap\mixins\buttons.less */
 .btn-warning.disabled,
 .btn-warning[disabled],
 fieldset[disabled] .btn-warning,
@@ -3665,18 +2953,15 @@ fieldset[disabled] .btn-warning.active {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-/* line 38, bootstrap\mixins\buttons.less */
 .btn-warning .badge {
   color: #f0ad4e;
   background-color: #ffffff;
 }
-/* line 76, bootstrap\buttons.less */
 .btn-danger {
   color: #ffffff;
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-/* line 11, bootstrap\mixins\buttons.less */
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
@@ -3686,13 +2971,11 @@ fieldset[disabled] .btn-warning.active {
   background-color: #c9302c;
   border-color: #ac2925;
 }
-/* line 20, bootstrap\mixins\buttons.less */
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   background-image: none;
 }
-/* line 28, bootstrap\mixins\buttons.less */
 .btn-danger.disabled,
 .btn-danger[disabled],
 fieldset[disabled] .btn-danger,
@@ -3711,19 +2994,16 @@ fieldset[disabled] .btn-danger.active {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-/* line 38, bootstrap\mixins\buttons.less */
 .btn-danger .badge {
   color: #d9534f;
   background-color: #ffffff;
 }
-/* line 85, bootstrap\buttons.less */
 .btn-link {
   color: #428bca;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
 }
-/* line 91, bootstrap\buttons.less */
 .btn-link,
 .btn-link:active,
 .btn-link[disabled],
@@ -3732,21 +3012,18 @@ fieldset[disabled] .btn-link {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 98, bootstrap\buttons.less */
 .btn-link,
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
   border-color: transparent;
 }
-/* line 104, bootstrap\buttons.less */
 .btn-link:hover,
 .btn-link:focus {
   color: #2a6496;
   text-decoration: underline;
   background-color: transparent;
 }
-/* line 112, bootstrap\buttons.less */
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
@@ -3754,7 +3031,6 @@ fieldset[disabled] .btn-link:focus {
   color: #777777;
   text-decoration: none;
 }
-/* line 124, bootstrap\buttons.less */
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
@@ -3762,7 +3038,6 @@ fieldset[disabled] .btn-link:focus {
   line-height: 1.33;
   border-radius: 6px;
 }
-/* line 128, bootstrap\buttons.less */
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
@@ -3770,7 +3045,6 @@ fieldset[disabled] .btn-link:focus {
   line-height: 1.5;
   border-radius: 3px;
 }
-/* line 132, bootstrap\buttons.less */
 .btn-xs,
 .btn-group-xs > .btn {
   padding: 1px 5px;
@@ -3778,56 +3052,47 @@ fieldset[disabled] .btn-link:focus {
   line-height: 1.5;
   border-radius: 3px;
 }
-/* line 140, bootstrap\buttons.less */
 .btn-block {
   display: block;
   width: 100%;
 }
-/* line 146, bootstrap\buttons.less */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
-/* line 154, bootstrap\buttons.less */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
-/* line 10, bootstrap\component-animations.less */
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
-/* line 13, bootstrap\component-animations.less */
 .fade.in {
   opacity: 1;
 }
-/* line 18, bootstrap\component-animations.less */
 .collapse {
   display: none;
 }
-/* line 21, bootstrap\component-animations.less */
 .collapse.in {
   display: block;
 }
-/* line 22, bootstrap\component-animations.less */
 tr.collapse.in {
   display: table-row;
 }
-/* line 23, bootstrap\component-animations.less */
 tbody.collapse.in {
   display: table-row-group;
 }
-/* line 26, bootstrap\component-animations.less */
 .collapsing {
   position: relative;
   height: 0;
   overflow: hidden;
   -webkit-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
-/* line 7, bootstrap\dropdowns.less */
 .caret {
   display: inline-block;
   width: 0;
@@ -3838,15 +3103,12 @@ tbody.collapse.in {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
-/* line 19, bootstrap\dropdowns.less */
 .dropdown {
   position: relative;
 }
-/* line 24, bootstrap\dropdowns.less */
 .dropdown-toggle:focus {
   outline: 0;
 }
-/* line 29, bootstrap\dropdowns.less */
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -3866,22 +3128,18 @@ tbody.collapse.in {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 52, bootstrap\dropdowns.less */
 .dropdown-menu.pull-right {
   right: 0;
   left: auto;
 }
-/* line 58, bootstrap\dropdowns.less */
 .dropdown-menu .divider {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
-/* line 63, bootstrap\dropdowns.less */
 .dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
@@ -3891,14 +3149,12 @@ tbody.collapse.in {
   color: #333333;
   white-space: nowrap;
 }
-/* line 76, bootstrap\dropdowns.less */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
   background-color: #f5f5f5;
 }
-/* line 86, bootstrap\dropdowns.less */
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -3907,13 +3163,11 @@ tbody.collapse.in {
   outline: 0;
   background-color: #428bca;
 }
-/* line 101, bootstrap\dropdowns.less */
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   color: #777777;
 }
-/* line 109, bootstrap\dropdowns.less */
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
@@ -3922,25 +3176,20 @@ tbody.collapse.in {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   cursor: not-allowed;
 }
-/* line 122, bootstrap\dropdowns.less */
 .open > .dropdown-menu {
   display: block;
 }
-/* line 127, bootstrap\dropdowns.less */
 .open > a {
   outline: 0;
 }
-/* line 136, bootstrap\dropdowns.less */
 .dropdown-menu-right {
   left: auto;
   right: 0;
 }
-/* line 146, bootstrap\dropdowns.less */
 .dropdown-menu-left {
   left: 0;
   right: auto;
 }
-/* line 152, bootstrap\dropdowns.less */
 .dropdown-header {
   display: block;
   padding: 3px 20px;
@@ -3949,7 +3198,6 @@ tbody.collapse.in {
   color: #777777;
   white-space: nowrap;
 }
-/* line 162, bootstrap\dropdowns.less */
 .dropdown-backdrop {
   position: fixed;
   left: 0;
@@ -3958,19 +3206,16 @@ tbody.collapse.in {
   top: 0;
   z-index: 990;
 }
-/* line 172, bootstrap\dropdowns.less */
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
-/* line 185, bootstrap\dropdowns.less */
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
   border-bottom: 4px solid;
   content: "";
 }
-/* line 191, bootstrap\dropdowns.less */
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -3978,31 +3223,26 @@ tbody.collapse.in {
   margin-bottom: 1px;
 }
 @media (min-width: 768px) {
-  /* line 205, bootstrap\dropdowns.less */
   .navbar-right .dropdown-menu {
     left: auto;
     right: 0;
   }
-  /* line 210, bootstrap\dropdowns.less */
   .navbar-right .dropdown-menu-left {
     left: 0;
     right: auto;
   }
 }
-/* line 6, bootstrap\button-groups.less */
 .btn-group,
 .btn-group-vertical {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 11, bootstrap\button-groups.less */
 .btn-group > .btn,
 .btn-group-vertical > .btn {
   position: relative;
   float: left;
 }
-/* line 15, bootstrap\button-groups.less */
 .btn-group > .btn:hover,
 .btn-group-vertical > .btn:hover,
 .btn-group > .btn:focus,
@@ -4013,110 +3253,88 @@ tbody.collapse.in {
 .btn-group-vertical > .btn.active {
   z-index: 2;
 }
-/* line 21, bootstrap\button-groups.less */
 .btn-group > .btn:focus,
 .btn-group-vertical > .btn:focus {
   outline: 0;
 }
-/* line 30, bootstrap\button-groups.less */
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .btn-group {
   margin-left: -1px;
 }
-/* line 39, bootstrap\button-groups.less */
 .btn-toolbar {
   margin-left: -5px;
 }
-/* line 43, bootstrap\button-groups.less */
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
   float: left;
 }
-/* line 47, bootstrap\button-groups.less */
 .btn-toolbar > .btn,
 .btn-toolbar > .btn-group,
 .btn-toolbar > .input-group {
   margin-left: 5px;
 }
-/* line 54, bootstrap\button-groups.less */
 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
-/* line 59, bootstrap\button-groups.less */
 .btn-group > .btn:first-child {
   margin-left: 0;
 }
-/* line 61, bootstrap\button-groups.less */
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 66, bootstrap\button-groups.less */
 .btn-group > .btn:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 72, bootstrap\button-groups.less */
 .btn-group > .btn-group {
   float: left;
 }
-/* line 75, bootstrap\button-groups.less */
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
-/* line 79, bootstrap\button-groups.less */
 .btn-group > .btn-group:first-child > .btn:last-child,
 .btn-group > .btn-group:first-child > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 84, bootstrap\button-groups.less */
 .btn-group > .btn-group:last-child > .btn:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 89, bootstrap\button-groups.less */
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0;
 }
-/* line 108, bootstrap\button-groups.less */
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
 }
-/* line 112, bootstrap\button-groups.less */
 .btn-group > .btn-lg + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 119, bootstrap\button-groups.less */
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 123, bootstrap\button-groups.less */
 .btn-group.open .dropdown-toggle.btn-link {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 130, bootstrap\button-groups.less */
 .btn .caret {
   margin-left: 0;
 }
-/* line 134, bootstrap\button-groups.less */
 .btn-lg .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
 }
-/* line 139, bootstrap\button-groups.less */
 .dropup .btn-lg .caret {
   border-width: 0 5px 5px;
 }
-/* line 148, bootstrap\button-groups.less */
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-group,
 .btn-group-vertical > .btn-group > .btn {
@@ -4125,11 +3343,9 @@ tbody.collapse.in {
   width: 100%;
   max-width: 100%;
 }
-/* line 160, bootstrap\button-groups.less */
 .btn-group-vertical > .btn-group > .btn {
   float: none;
 }
-/* line 165, bootstrap\button-groups.less */
 .btn-group-vertical > .btn + .btn,
 .btn-group-vertical > .btn + .btn-group,
 .btn-group-vertical > .btn-group + .btn,
@@ -4137,60 +3353,49 @@ tbody.collapse.in {
   margin-top: -1px;
   margin-left: 0;
 }
-/* line 175, bootstrap\button-groups.less */
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
-/* line 178, bootstrap\button-groups.less */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 182, bootstrap\button-groups.less */
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-bottom-left-radius: 4px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 187, bootstrap\button-groups.less */
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
-/* line 191, bootstrap\button-groups.less */
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 196, bootstrap\button-groups.less */
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 205, bootstrap\button-groups.less */
 .btn-group-justified {
   display: table;
   width: 100%;
   table-layout: fixed;
   border-collapse: separate;
 }
-/* line 210, bootstrap\button-groups.less */
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
   float: none;
   display: table-cell;
   width: 1%;
 }
-/* line 216, bootstrap\button-groups.less */
 .btn-group-justified > .btn-group .btn {
   width: 100%;
 }
-/* line 220, bootstrap\button-groups.less */
 .btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
-/* line 235, bootstrap\button-groups.less */
 [data-toggle="buttons"] > .btn > input[type="radio"],
 [data-toggle="buttons"] > .btn > input[type="checkbox"] {
   position: absolute;
@@ -4198,19 +3403,16 @@ tbody.collapse.in {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 7, bootstrap\input-groups.less */
 .input-group {
   position: relative;
   display: table;
   border-collapse: separate;
 }
-/* line 13, bootstrap\input-groups.less */
 .input-group[class*="col-"] {
   float: none;
   padding-left: 0;
   padding-right: 0;
 }
-/* line 19, bootstrap\input-groups.less */
 .input-group .form-control {
   position: relative;
   z-index: 2;
@@ -4218,7 +3420,6 @@ tbody.collapse.in {
   width: 100%;
   margin-bottom: 0;
 }
-/* line 40, bootstrap\input-groups.less */
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
@@ -4228,14 +3429,12 @@ tbody.collapse.in {
   line-height: 1.33;
   border-radius: 6px;
 }
-/* line 72, bootstrap\mixins\forms.less */
 select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn {
   height: 46px;
   line-height: 46px;
 }
-/* line 77, bootstrap\mixins\forms.less */
 textarea.input-group-lg > .form-control,
 textarea.input-group-lg > .input-group-addon,
 textarea.input-group-lg > .input-group-btn > .btn,
@@ -4244,7 +3443,6 @@ select[multiple].input-group-lg > .input-group-addon,
 select[multiple].input-group-lg > .input-group-btn > .btn {
   height: auto;
 }
-/* line 45, bootstrap\input-groups.less */
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
@@ -4254,14 +3452,12 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
   line-height: 1.5;
   border-radius: 3px;
 }
-/* line 72, bootstrap\mixins\forms.less */
 select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn {
   height: 30px;
   line-height: 30px;
 }
-/* line 77, bootstrap\mixins\forms.less */
 textarea.input-group-sm > .form-control,
 textarea.input-group-sm > .input-group-addon,
 textarea.input-group-sm > .input-group-btn > .btn,
@@ -4270,26 +3466,22 @@ select[multiple].input-group-sm > .input-group-addon,
 select[multiple].input-group-sm > .input-group-btn > .btn {
   height: auto;
 }
-/* line 54, bootstrap\input-groups.less */
 .input-group-addon,
 .input-group-btn,
 .input-group .form-control {
   display: table-cell;
 }
-/* line 59, bootstrap\input-groups.less */
 .input-group-addon:not(:first-child):not(:last-child),
 .input-group-btn:not(:first-child):not(:last-child),
 .input-group .form-control:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
-/* line 64, bootstrap\input-groups.less */
 .input-group-addon,
 .input-group-btn {
   width: 1%;
   white-space: nowrap;
   vertical-align: middle;
 }
-/* line 73, bootstrap\input-groups.less */
 .input-group-addon {
   padding: 6px 12px;
   font-size: 14px;
@@ -4301,24 +3493,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
-/* line 85, bootstrap\input-groups.less */
 .input-group-addon.input-sm {
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 3px;
 }
-/* line 90, bootstrap\input-groups.less */
 .input-group-addon.input-lg {
   padding: 10px 16px;
   font-size: 18px;
   border-radius: 6px;
 }
-/* line 97, bootstrap\input-groups.less */
 .input-group-addon input[type="radio"],
 .input-group-addon input[type="checkbox"] {
   margin-top: 0;
 }
-/* line 104, bootstrap\input-groups.less */
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
@@ -4329,11 +3517,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 113, bootstrap\input-groups.less */
 .input-group-addon:first-child {
   border-right: 0;
 }
-/* line 116, bootstrap\input-groups.less */
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
@@ -4344,68 +3530,55 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 125, bootstrap\input-groups.less */
 .input-group-addon:last-child {
   border-left: 0;
 }
-/* line 131, bootstrap\input-groups.less */
 .input-group-btn {
   position: relative;
   font-size: 0;
   white-space: nowrap;
 }
-/* line 140, bootstrap\input-groups.less */
 .input-group-btn > .btn {
   position: relative;
 }
-/* line 142, bootstrap\input-groups.less */
 .input-group-btn > .btn + .btn {
   margin-left: -1px;
 }
-/* line 146, bootstrap\input-groups.less */
 .input-group-btn > .btn:hover,
 .input-group-btn > .btn:focus,
 .input-group-btn > .btn:active {
   z-index: 2;
 }
-/* line 155, bootstrap\input-groups.less */
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .btn-group {
   margin-right: -1px;
 }
-/* line 161, bootstrap\input-groups.less */
 .input-group-btn:last-child > .btn,
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
 }
-/* line 9, bootstrap\navs.less */
 .nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
-/* line 15, bootstrap\navs.less */
 .nav > li {
   position: relative;
   display: block;
 }
-/* line 19, bootstrap\navs.less */
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
-/* line 23, bootstrap\navs.less */
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
-/* line 31, bootstrap\navs.less */
 .nav > li.disabled > a {
   color: #777777;
 }
-/* line 34, bootstrap\navs.less */
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #777777;
@@ -4413,45 +3586,37 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
   cursor: not-allowed;
 }
-/* line 46, bootstrap\navs.less */
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
   border-color: #428bca;
 }
-/* line 59, bootstrap\navs.less */
 .nav .nav-divider {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
-/* line 66, bootstrap\navs.less */
 .nav > li > a > img {
   max-width: none;
 }
-/* line 76, bootstrap\navs.less */
 .nav-tabs {
   border-bottom: 1px solid #dddddd;
 }
-/* line 78, bootstrap\navs.less */
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
 }
-/* line 84, bootstrap\navs.less */
 .nav-tabs > li > a {
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
-/* line 89, bootstrap\navs.less */
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
 }
-/* line 96, bootstrap\navs.less */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -4461,160 +3626,129 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-color: transparent;
   cursor: default;
 }
-/* line 108, bootstrap\navs.less */
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
 }
-/* line 163, bootstrap\navs.less */
 .nav-tabs.nav-justified > li {
   float: none;
 }
-/* line 165, bootstrap\navs.less */
 .nav-tabs.nav-justified > li > a {
   text-align: center;
   margin-bottom: 5px;
 }
-/* line 171, bootstrap\navs.less */
 .nav-tabs.nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
 }
 @media (min-width: 768px) {
-  /* line 177, bootstrap\navs.less */
   .nav-tabs.nav-justified > li {
     display: table-cell;
     width: 1%;
   }
-  /* line 180, bootstrap\navs.less */
   .nav-tabs.nav-justified > li > a {
     margin-bottom: 0;
   }
 }
-/* line 193, bootstrap\navs.less */
 .nav-tabs.nav-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
 }
-/* line 199, bootstrap\navs.less */
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
 @media (min-width: 768px) {
-  /* line 206, bootstrap\navs.less */
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
     border-radius: 4px 4px 0 0;
   }
-  /* line 210, bootstrap\navs.less */
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
     border-bottom-color: #ffffff;
   }
 }
-/* line 118, bootstrap\navs.less */
 .nav-pills > li {
   float: left;
 }
-/* line 122, bootstrap\navs.less */
 .nav-pills > li > a {
   border-radius: 4px;
 }
-/* line 125, bootstrap\navs.less */
 .nav-pills > li + li {
   margin-left: 2px;
 }
-/* line 131, bootstrap\navs.less */
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
   background-color: #428bca;
 }
-/* line 144, bootstrap\navs.less */
 .nav-stacked > li {
   float: none;
 }
-/* line 146, bootstrap\navs.less */
 .nav-stacked > li + li {
   margin-top: 2px;
   margin-left: 0;
 }
-/* line 160, bootstrap\navs.less */
 .nav-justified {
   width: 100%;
 }
-/* line 163, bootstrap\navs.less */
 .nav-justified > li {
   float: none;
 }
-/* line 165, bootstrap\navs.less */
 .nav-justified > li > a {
   text-align: center;
   margin-bottom: 5px;
 }
-/* line 171, bootstrap\navs.less */
 .nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
 }
 @media (min-width: 768px) {
-  /* line 177, bootstrap\navs.less */
   .nav-justified > li {
     display: table-cell;
     width: 1%;
   }
-  /* line 180, bootstrap\navs.less */
   .nav-justified > li > a {
     margin-bottom: 0;
   }
 }
-/* line 190, bootstrap\navs.less */
 .nav-tabs-justified {
   border-bottom: 0;
 }
-/* line 193, bootstrap\navs.less */
 .nav-tabs-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
 }
-/* line 199, bootstrap\navs.less */
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
 @media (min-width: 768px) {
-  /* line 206, bootstrap\navs.less */
   .nav-tabs-justified > li > a {
     border-bottom: 1px solid #dddddd;
     border-radius: 4px 4px 0 0;
   }
-  /* line 210, bootstrap\navs.less */
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
     border-bottom-color: #ffffff;
   }
 }
-/* line 224, bootstrap\navs.less */
 .tab-content > .tab-pane {
   display: none;
 }
-/* line 227, bootstrap\navs.less */
 .tab-content > .active {
   display: block;
 }
-/* line 237, bootstrap\navs.less */
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 11, bootstrap\navbar.less */
 .navbar {
   position: relative;
   min-height: 50px;
@@ -4622,51 +3756,41 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
-  /* line 20, bootstrap\navbar.less */
   .navbar {
     border-radius: 4px;
   }
 }
 @media (min-width: 768px) {
-  /* line 34, bootstrap\navbar.less */
   .navbar-header {
     float: left;
   }
 }
-/* line 50, bootstrap\navbar.less */
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
   border-top: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
 }
-/* line 59, bootstrap\navbar.less */
 .navbar-collapse.in {
   overflow-y: auto;
 }
 @media (min-width: 768px) {
-  /* line 63, bootstrap\navbar.less */
   .navbar-collapse {
     width: auto;
     border-top: 0;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 68, bootstrap\navbar.less */
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
   }
-  /* line 75, bootstrap\navbar.less */
   .navbar-collapse.in {
     overflow-y: visible;
   }
-  /* line 81, bootstrap\navbar.less */
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
@@ -4674,19 +3798,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-right: 0;
   }
 }
-/* line 92, bootstrap\navbar.less */
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
 @media (max-width: 480px) and (orientation: landscape) {
-  /* line 95, bootstrap\navbar.less */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
 }
-/* line 108, bootstrap\navbar.less */
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -4695,7 +3816,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -15px;
 }
 @media (min-width: 768px) {
-  /* line 113, bootstrap\navbar.less */
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -4704,18 +3824,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 0;
   }
 }
-/* line 128, bootstrap\navbar.less */
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
 }
 @media (min-width: 768px) {
-  /* line 132, bootstrap\navbar.less */
   .navbar-static-top {
     border-radius: 0;
   }
 }
-/* line 138, bootstrap\navbar.less */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -4726,24 +3843,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   transform: translate3d(0, 0, 0);
 }
 @media (min-width: 768px) {
-  /* line 147, bootstrap\navbar.less */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
   }
 }
-/* line 151, bootstrap\navbar.less */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
 }
-/* line 155, bootstrap\navbar.less */
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
-/* line 164, bootstrap\navbar.less */
 .navbar-brand {
   float: left;
   padding: 15px 15px;
@@ -4751,19 +3864,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
   height: 50px;
 }
-/* line 171, bootstrap\navbar.less */
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  /* line 177, bootstrap\navbar.less */
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
-/* line 190, bootstrap\navbar.less */
 .navbar-toggle {
   position: relative;
   float: right;
@@ -4776,39 +3886,32 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
   border-radius: 4px;
 }
-/* line 203, bootstrap\navbar.less */
 .navbar-toggle:focus {
   outline: 0;
 }
-/* line 208, bootstrap\navbar.less */
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
 }
-/* line 214, bootstrap\navbar.less */
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
 @media (min-width: 768px) {
-  /* line 218, bootstrap\navbar.less */
   .navbar-toggle {
     display: none;
   }
 }
-/* line 229, bootstrap\navbar.less */
 .navbar-nav {
   margin: 7.5px -15px;
 }
-/* line 232, bootstrap\navbar.less */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
-  /* line 240, bootstrap\navbar.less */
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4816,55 +3919,44 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-top: 0;
     background-color: transparent;
     border: 0;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 248, bootstrap\navbar.less */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
   }
-  /* line 252, bootstrap\navbar.less */
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
-  /* line 254, bootstrap\navbar.less */
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
 }
 @media (min-width: 768px) {
-  /* line 263, bootstrap\navbar.less */
   .navbar-nav {
     float: left;
     margin: 0;
   }
-  /* line 267, bootstrap\navbar.less */
   .navbar-nav > li {
     float: left;
   }
-  /* line 269, bootstrap\navbar.less */
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 275, bootstrap\navbar.less */
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
   }
 }
 @media (min-width: 768px) {
-  /* line 289, bootstrap\navbar.less */
   .navbar-left {
     float: left !important;
   }
-  /* line 290, bootstrap\navbar.less */
   .navbar-right {
     float: right !important;
   }
 }
-/* line 299, bootstrap\navbar.less */
 .navbar-form {
   margin-left: -15px;
   margin-right: -15px;
@@ -4877,39 +3969,32 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 8px;
 }
 @media (min-width: 768px) {
-  /* line 402, bootstrap\forms.less */
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 409, bootstrap\forms.less */
   .navbar-form .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-  /* line 415, bootstrap\forms.less */
   .navbar-form .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 419, bootstrap\forms.less */
   .navbar-form .input-group .input-group-addon,
   .navbar-form .input-group .input-group-btn,
   .navbar-form .input-group .form-control {
     width: auto;
   }
-  /* line 427, bootstrap\forms.less */
   .navbar-form .input-group > .form-control {
     width: 100%;
   }
-  /* line 431, bootstrap\forms.less */
   .navbar-form .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 439, bootstrap\forms.less */
   .navbar-form .radio,
   .navbar-form .checkbox {
     display: inline-block;
@@ -4917,30 +4002,25 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 446, bootstrap\forms.less */
   .navbar-form .radio label,
   .navbar-form .checkbox label {
     padding-left: 0;
   }
-  /* line 450, bootstrap\forms.less */
   .navbar-form .radio input[type="radio"],
   .navbar-form .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-  /* line 460, bootstrap\forms.less */
   .navbar-form .has-feedback .form-control-feedback {
     top: 0;
   }
 }
 @media (max-width: 767px) {
-  /* line 312, bootstrap\navbar.less */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
 @media (min-width: 768px) {
-  /* line 321, bootstrap\navbar.less */
   .navbar-form {
     width: auto;
     border: 0;
@@ -4951,116 +4031,94 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 331, bootstrap\navbar.less */
   .navbar-form.navbar-right:last-child {
     margin-right: -15px;
   }
 }
-/* line 341, bootstrap\navbar.less */
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-/* line 346, bootstrap\navbar.less */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 355, bootstrap\navbar.less */
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-/* line 358, bootstrap\navbar.less */
 .navbar-btn.btn-sm {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 361, bootstrap\navbar.less */
 .navbar-btn.btn-xs {
   margin-top: 14px;
   margin-bottom: 14px;
 }
-/* line 371, bootstrap\navbar.less */
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 @media (min-width: 768px) {
-  /* line 374, bootstrap\navbar.less */
   .navbar-text {
     float: left;
     margin-left: 15px;
     margin-right: 15px;
   }
-  /* line 380, bootstrap\navbar.less */
   .navbar-text.navbar-right:last-child {
     margin-right: 0;
   }
 }
-/* line 390, bootstrap\navbar.less */
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
-/* line 394, bootstrap\navbar.less */
 .navbar-default .navbar-brand {
   color: #777777;
 }
-/* line 396, bootstrap\navbar.less */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
-/* line 403, bootstrap\navbar.less */
 .navbar-default .navbar-text {
   color: #777777;
 }
-/* line 408, bootstrap\navbar.less */
 .navbar-default .navbar-nav > li > a {
   color: #777777;
 }
-/* line 411, bootstrap\navbar.less */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
 }
-/* line 418, bootstrap\navbar.less */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
   background-color: #e7e7e7;
 }
-/* line 426, bootstrap\navbar.less */
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
   color: #cccccc;
   background-color: transparent;
 }
-/* line 435, bootstrap\navbar.less */
 .navbar-default .navbar-toggle {
   border-color: #dddddd;
 }
-/* line 437, bootstrap\navbar.less */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #dddddd;
 }
-/* line 441, bootstrap\navbar.less */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888888;
 }
-/* line 446, bootstrap\navbar.less */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
-/* line 455, bootstrap\navbar.less */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -5068,24 +4126,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555555;
 }
 @media (max-width: 767px) {
-  /* line 466, bootstrap\navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
-  /* line 468, bootstrap\navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333333;
     background-color: transparent;
   }
-  /* line 475, bootstrap\navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
     background-color: #e7e7e7;
   }
-  /* line 483, bootstrap\navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5093,92 +4147,74 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
   }
 }
-/* line 499, bootstrap\navbar.less */
 .navbar-default .navbar-link {
   color: #777777;
 }
-/* line 501, bootstrap\navbar.less */
 .navbar-default .navbar-link:hover {
   color: #333333;
 }
-/* line 506, bootstrap\navbar.less */
 .navbar-default .btn-link {
   color: #777777;
 }
-/* line 508, bootstrap\navbar.less */
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
   color: #333333;
 }
-/* line 514, bootstrap\navbar.less */
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
 .navbar-default .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
-/* line 524, bootstrap\navbar.less */
 .navbar-inverse {
   background-color: #222222;
   border-color: #080808;
 }
-/* line 528, bootstrap\navbar.less */
 .navbar-inverse .navbar-brand {
   color: #777777;
 }
-/* line 530, bootstrap\navbar.less */
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #ffffff;
   background-color: transparent;
 }
-/* line 537, bootstrap\navbar.less */
 .navbar-inverse .navbar-text {
   color: #777777;
 }
-/* line 542, bootstrap\navbar.less */
 .navbar-inverse .navbar-nav > li > a {
   color: #777777;
 }
-/* line 545, bootstrap\navbar.less */
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: transparent;
 }
-/* line 552, bootstrap\navbar.less */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #080808;
 }
-/* line 560, bootstrap\navbar.less */
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444444;
   background-color: transparent;
 }
-/* line 570, bootstrap\navbar.less */
 .navbar-inverse .navbar-toggle {
   border-color: #333333;
 }
-/* line 572, bootstrap\navbar.less */
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
   background-color: #333333;
 }
-/* line 576, bootstrap\navbar.less */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-/* line 581, bootstrap\navbar.less */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
-/* line 589, bootstrap\navbar.less */
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
@@ -5186,32 +4222,26 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ffffff;
 }
 @media (max-width: 767px) {
-  /* line 600, bootstrap\navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
-  /* line 603, bootstrap\navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #080808;
   }
-  /* line 606, bootstrap\navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
-  /* line 608, bootstrap\navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
     background-color: transparent;
   }
-  /* line 615, bootstrap\navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
     background-color: #080808;
   }
-  /* line 623, bootstrap\navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5219,31 +4249,25 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: transparent;
   }
 }
-/* line 634, bootstrap\navbar.less */
 .navbar-inverse .navbar-link {
   color: #777777;
 }
-/* line 636, bootstrap\navbar.less */
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
 }
-/* line 641, bootstrap\navbar.less */
 .navbar-inverse .btn-link {
   color: #777777;
 }
-/* line 643, bootstrap\navbar.less */
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
   color: #ffffff;
 }
-/* line 649, bootstrap\navbar.less */
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
 }
-/* line 6, bootstrap\breadcrumbs.less */
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -5251,32 +4275,26 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #f5f5f5;
   border-radius: 4px;
 }
-/* line 13, bootstrap\breadcrumbs.less */
 .breadcrumb > li {
   display: inline-block;
 }
-/* line 16, bootstrap\breadcrumbs.less */
 .breadcrumb > li + li:before {
   content: "/\00a0";
   padding: 0 5px;
   color: #cccccc;
 }
-/* line 23, bootstrap\breadcrumbs.less */
 .breadcrumb > .active {
   color: #777777;
 }
-/* line 4, bootstrap\pagination.less */
 .pagination {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
   border-radius: 4px;
 }
-/* line 10, bootstrap\pagination.less */
 .pagination > li {
   display: inline;
 }
-/* line 12, bootstrap\pagination.less */
 .pagination > li > a,
 .pagination > li > span {
   position: relative;
@@ -5289,20 +4307,17 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border: 1px solid #dddddd;
   margin-left: -1px;
 }
-/* line 25, bootstrap\pagination.less */
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
-/* line 32, bootstrap\pagination.less */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
 }
-/* line 41, bootstrap\pagination.less */
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
@@ -5311,7 +4326,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #eeeeee;
   border-color: #dddddd;
 }
-/* line 51, bootstrap\pagination.less */
 .pagination > .active > a,
 .pagination > .active > span,
 .pagination > .active > a:hover,
@@ -5324,7 +4338,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-color: #428bca;
   cursor: default;
 }
-/* line 63, bootstrap\pagination.less */
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
 .pagination > .disabled > span:focus,
@@ -5336,54 +4349,45 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-color: #dddddd;
   cursor: not-allowed;
 }
-/* line 5, bootstrap\mixins\pagination.less */
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
   font-size: 18px;
 }
-/* line 11, bootstrap\mixins\pagination.less */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
   border-bottom-left-radius: 6px;
   border-top-left-radius: 6px;
 }
-/* line 17, bootstrap\mixins\pagination.less */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
   border-bottom-right-radius: 6px;
   border-top-right-radius: 6px;
 }
-/* line 5, bootstrap\mixins\pagination.less */
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
   font-size: 12px;
 }
-/* line 11, bootstrap\mixins\pagination.less */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 17, bootstrap\mixins\pagination.less */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 6, bootstrap\pager.less */
 .pager {
   padding-left: 0;
   margin: 20px 0;
   list-style: none;
   text-align: center;
 }
-/* line 12, bootstrap\pager.less */
 .pager li {
   display: inline;
 }
-/* line 14, bootstrap\pager.less */
 .pager li > a,
 .pager li > span {
   display: inline-block;
@@ -5392,23 +4396,19 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border: 1px solid #dddddd;
   border-radius: 15px;
 }
-/* line 23, bootstrap\pager.less */
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
-/* line 31, bootstrap\pager.less */
 .pager .next > a,
 .pager .next > span {
   float: right;
 }
-/* line 38, bootstrap\pager.less */
 .pager .previous > a,
 .pager .previous > span {
   float: left;
 }
-/* line 45, bootstrap\pager.less */
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
@@ -5417,7 +4417,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #ffffff;
   cursor: not-allowed;
 }
-/* line 5, bootstrap\labels.less */
 .label {
   display: inline;
   padding: .2em .6em .3em;
@@ -5430,77 +4429,61 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   vertical-align: baseline;
   border-radius: .25em;
 }
-/* line 19, bootstrap\labels.less */
 a.label:hover,
 a.label:focus {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 28, bootstrap\labels.less */
 .label:empty {
   display: none;
 }
-/* line 33, bootstrap\labels.less */
 .btn .label {
   position: relative;
   top: -1px;
 }
-/* line 42, bootstrap\labels.less */
 .label-default {
   background-color: #777777;
 }
-/* line 7, bootstrap\mixins\labels.less */
 .label-default[href]:hover,
 .label-default[href]:focus {
   background-color: #5e5e5e;
 }
-/* line 46, bootstrap\labels.less */
 .label-primary {
   background-color: #428bca;
 }
-/* line 7, bootstrap\mixins\labels.less */
 .label-primary[href]:hover,
 .label-primary[href]:focus {
   background-color: #3071a9;
 }
-/* line 50, bootstrap\labels.less */
 .label-success {
   background-color: #5cb85c;
 }
-/* line 7, bootstrap\mixins\labels.less */
 .label-success[href]:hover,
 .label-success[href]:focus {
   background-color: #449d44;
 }
-/* line 54, bootstrap\labels.less */
 .label-info {
   background-color: #5bc0de;
 }
-/* line 7, bootstrap\mixins\labels.less */
 .label-info[href]:hover,
 .label-info[href]:focus {
   background-color: #31b0d5;
 }
-/* line 58, bootstrap\labels.less */
 .label-warning {
   background-color: #f0ad4e;
 }
-/* line 7, bootstrap\mixins\labels.less */
 .label-warning[href]:hover,
 .label-warning[href]:focus {
   background-color: #ec971f;
 }
-/* line 62, bootstrap\labels.less */
 .label-danger {
   background-color: #d9534f;
 }
-/* line 7, bootstrap\mixins\labels.less */
 .label-danger[href]:hover,
 .label-danger[href]:focus {
   background-color: #c9302c;
 }
-/* line 7, bootstrap\badges.less */
 .badge {
   display: inline-block;
   min-width: 10px;
@@ -5515,85 +4498,69 @@ a.label:focus {
   background-color: #777777;
   border-radius: 10px;
 }
-/* line 22, bootstrap\badges.less */
 .badge:empty {
   display: none;
 }
-/* line 27, bootstrap\badges.less */
 .btn .badge {
   position: relative;
   top: -1px;
 }
-/* line 31, bootstrap\badges.less */
 .btn-xs .badge {
   top: 0;
   padding: 1px 5px;
 }
-/* line 38, bootstrap\badges.less */
 a.badge:hover,
 a.badge:focus {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 47, bootstrap\badges.less */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #428bca;
   background-color: #ffffff;
 }
-/* line 52, bootstrap\badges.less */
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-/* line 6, bootstrap\jumbotron.less */
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
 }
-/* line 12, bootstrap\jumbotron.less */
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
 }
-/* line 16, bootstrap\jumbotron.less */
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
 }
-/* line 22, bootstrap\jumbotron.less */
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
-/* line 26, bootstrap\jumbotron.less */
 .container .jumbotron {
   border-radius: 6px;
 }
-/* line 30, bootstrap\jumbotron.less */
 .jumbotron .container {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 34, bootstrap\jumbotron.less */
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  /* line 38, bootstrap\jumbotron.less */
   .container .jumbotron {
     padding-left: 60px;
     padding-right: 60px;
   }
-  /* line 43, bootstrap\jumbotron.less */
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
   }
 }
-/* line 7, bootstrap\thumbnails.less */
 .thumbnail {
   display: block;
   padding: 4px;
@@ -5603,56 +4570,47 @@ a.list-group-item.active > .badge,
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 17, bootstrap\thumbnails.less */
 .thumbnail > img,
 .thumbnail a > img {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 25, bootstrap\thumbnails.less */
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
   border-color: #428bca;
 }
-/* line 32, bootstrap\thumbnails.less */
 .thumbnail .caption {
   padding: 9px;
   color: #333333;
 }
-/* line 9, bootstrap\alerts.less */
 .alert {
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
 }
-/* line 16, bootstrap\alerts.less */
 .alert h4 {
   margin-top: 0;
   color: inherit;
 }
-/* line 22, bootstrap\alerts.less */
 .alert .alert-link {
   font-weight: bold;
 }
-/* line 27, bootstrap\alerts.less */
 .alert > p,
 .alert > ul {
   margin-bottom: 0;
 }
-/* line 31, bootstrap\alerts.less */
 .alert > p + p {
   margin-top: 5px;
 }
-/* line 40, bootstrap\alerts.less */
 .alert-dismissable,
 .alert-dismissible {
   padding-right: 35px;
 }
-/* line 45, bootstrap\alerts.less */
 .alert-dismissable .close,
 .alert-dismissible .close {
   position: relative;
@@ -5660,83 +4618,66 @@ a.thumbnail.active {
   right: -21px;
   color: inherit;
 }
-/* line 57, bootstrap\alerts.less */
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #3c763d;
 }
-/* line 8, bootstrap\mixins\alerts.less */
 .alert-success hr {
   border-top-color: #c9e2b3;
 }
-/* line 11, bootstrap\mixins\alerts.less */
 .alert-success .alert-link {
   color: #2b542c;
 }
-/* line 60, bootstrap\alerts.less */
 .alert-info {
   background-color: #d9edf7;
   border-color: #bce8f1;
   color: #31708f;
 }
-/* line 8, bootstrap\mixins\alerts.less */
 .alert-info hr {
   border-top-color: #a6e1ec;
 }
-/* line 11, bootstrap\mixins\alerts.less */
 .alert-info .alert-link {
   color: #245269;
 }
-/* line 63, bootstrap\alerts.less */
 .alert-warning {
   background-color: #fcf8e3;
   border-color: #faebcc;
   color: #8a6d3b;
 }
-/* line 8, bootstrap\mixins\alerts.less */
 .alert-warning hr {
   border-top-color: #f7e1b5;
 }
-/* line 11, bootstrap\mixins\alerts.less */
 .alert-warning .alert-link {
   color: #66512c;
 }
-/* line 66, bootstrap\alerts.less */
 .alert-danger {
   background-color: #f2dede;
   border-color: #ebccd1;
   color: #a94442;
 }
-/* line 8, bootstrap\mixins\alerts.less */
 .alert-danger hr {
   border-top-color: #e4b9c0;
 }
-/* line 11, bootstrap\mixins\alerts.less */
 .alert-danger .alert-link {
   color: #843534;
 }
 @-webkit-keyframes progress-bar-stripes {
-  /* line 11, bootstrap\progress-bars.less */
   from {
     background-position: 40px 0;
   }
-  /* line 12, bootstrap\progress-bars.less */
   to {
     background-position: 0 0;
   }
 }
 @keyframes progress-bar-stripes {
-  /* line 17, bootstrap\progress-bars.less */
   from {
     background-position: 40px 0;
   }
-  /* line 18, bootstrap\progress-bars.less */
   to {
     background-position: 0 0;
   }
 }
-/* line 27, bootstrap\progress-bars.less */
 .progress {
   overflow: hidden;
   height: 20px;
@@ -5746,7 +4687,6 @@ a.thumbnail.active {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 37, bootstrap\progress-bars.less */
 .progress-bar {
   float: left;
   width: 0%;
@@ -5759,114 +4699,97 @@ a.thumbnail.active {
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
-/* line 55, bootstrap\progress-bars.less */
 .progress-striped .progress-bar,
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  -webkit-background-size: 40px 40px;
   background-size: 40px 40px;
 }
-/* line 65, bootstrap\progress-bars.less */
 .progress.active .progress-bar,
 .progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
 }
-/* line 72, bootstrap\progress-bars.less */
 .progress-bar[aria-valuenow="1"],
 .progress-bar[aria-valuenow="2"] {
   min-width: 30px;
 }
-/* line 77, bootstrap\progress-bars.less */
 .progress-bar[aria-valuenow="0"] {
   color: #777777;
   min-width: 30px;
   background-color: transparent;
   background-image: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 91, bootstrap\progress-bars.less */
 .progress-bar-success {
   background-color: #5cb85c;
 }
-/* line 7, bootstrap\mixins\progress-bar.less */
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 95, bootstrap\progress-bars.less */
 .progress-bar-info {
   background-color: #5bc0de;
 }
-/* line 7, bootstrap\mixins\progress-bar.less */
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 99, bootstrap\progress-bars.less */
 .progress-bar-warning {
   background-color: #f0ad4e;
 }
-/* line 7, bootstrap\mixins\progress-bar.less */
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 103, bootstrap\progress-bars.less */
 .progress-bar-danger {
   background-color: #d9534f;
 }
-/* line 7, bootstrap\mixins\progress-bar.less */
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-/* line 10, bootstrap\media.less */
 .media,
 .media-body {
   overflow: hidden;
   zoom: 1;
 }
-/* line 17, bootstrap\media.less */
 .media,
 .media .media {
   margin-top: 15px;
 }
-/* line 21, bootstrap\media.less */
 .media:first-child {
   margin-top: 0;
 }
-/* line 26, bootstrap\media.less */
 .media-object {
   display: block;
 }
-/* line 31, bootstrap\media.less */
 .media-heading {
   margin: 0 0 5px;
 }
-/* line 40, bootstrap\media.less */
 .media > .pull-left {
   margin-right: 10px;
 }
-/* line 43, bootstrap\media.less */
 .media > .pull-right {
   margin-left: 10px;
 }
-/* line 53, bootstrap\media.less */
 .media-list {
   padding-left: 0;
   list-style: none;
 }
-/* line 10, bootstrap\list-group.less */
 .list-group {
   margin-bottom: 20px;
   padding-left: 0;
 }
-/* line 21, bootstrap\list-group.less */
 .list-group-item {
   position: relative;
   display: block;
@@ -5875,60 +4798,49 @@ a.thumbnail.active {
   background-color: #ffffff;
   border: 1px solid #dddddd;
 }
-/* line 31, bootstrap\list-group.less */
 .list-group-item:first-child {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }
-/* line 34, bootstrap\list-group.less */
 .list-group-item:last-child {
   margin-bottom: 0;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 40, bootstrap\list-group.less */
 .list-group-item > .badge {
   float: right;
 }
-/* line 43, bootstrap\list-group.less */
 .list-group-item > .badge + .badge {
   margin-right: 5px;
 }
-/* line 54, bootstrap\list-group.less */
 a.list-group-item {
   color: #555555;
 }
-/* line 57, bootstrap\list-group.less */
 a.list-group-item .list-group-item-heading {
   color: #333333;
 }
-/* line 62, bootstrap\list-group.less */
 a.list-group-item:hover,
 a.list-group-item:focus {
   text-decoration: none;
   color: #555555;
   background-color: #f5f5f5;
 }
-/* line 72, bootstrap\list-group.less */
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
   background-color: #eeeeee;
   color: #777777;
 }
-/* line 79, bootstrap\list-group.less */
 .list-group-item.disabled .list-group-item-heading,
 .list-group-item.disabled:hover .list-group-item-heading,
 .list-group-item.disabled:focus .list-group-item-heading {
   color: inherit;
 }
-/* line 82, bootstrap\list-group.less */
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text,
 .list-group-item.disabled:focus .list-group-item-text {
   color: #777777;
 }
-/* line 88, bootstrap\list-group.less */
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
@@ -5937,7 +4849,6 @@ a.list-group-item:focus {
   background-color: #428bca;
   border-color: #428bca;
 }
-/* line 97, bootstrap\list-group.less */
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
 .list-group-item.active:focus .list-group-item-heading,
@@ -5949,32 +4860,26 @@ a.list-group-item:focus {
 .list-group-item.active:focus .list-group-item-heading > .small {
   color: inherit;
 }
-/* line 102, bootstrap\list-group.less */
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
   color: #e1edf7;
 }
-/* line 4, bootstrap\mixins\list-group.less */
 .list-group-item-success {
   color: #3c763d;
   background-color: #dff0d8;
 }
-/* line 8, bootstrap\mixins\list-group.less */
 a.list-group-item-success {
   color: #3c763d;
 }
-/* line 11, bootstrap\mixins\list-group.less */
 a.list-group-item-success .list-group-item-heading {
   color: inherit;
 }
-/* line 15, bootstrap\mixins\list-group.less */
 a.list-group-item-success:hover,
 a.list-group-item-success:focus {
   color: #3c763d;
   background-color: #d0e9c6;
 }
-/* line 20, bootstrap\mixins\list-group.less */
 a.list-group-item-success.active,
 a.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus {
@@ -5982,26 +4887,21 @@ a.list-group-item-success.active:focus {
   background-color: #3c763d;
   border-color: #3c763d;
 }
-/* line 4, bootstrap\mixins\list-group.less */
 .list-group-item-info {
   color: #31708f;
   background-color: #d9edf7;
 }
-/* line 8, bootstrap\mixins\list-group.less */
 a.list-group-item-info {
   color: #31708f;
 }
-/* line 11, bootstrap\mixins\list-group.less */
 a.list-group-item-info .list-group-item-heading {
   color: inherit;
 }
-/* line 15, bootstrap\mixins\list-group.less */
 a.list-group-item-info:hover,
 a.list-group-item-info:focus {
   color: #31708f;
   background-color: #c4e3f3;
 }
-/* line 20, bootstrap\mixins\list-group.less */
 a.list-group-item-info.active,
 a.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus {
@@ -6009,26 +4909,21 @@ a.list-group-item-info.active:focus {
   background-color: #31708f;
   border-color: #31708f;
 }
-/* line 4, bootstrap\mixins\list-group.less */
 .list-group-item-warning {
   color: #8a6d3b;
   background-color: #fcf8e3;
 }
-/* line 8, bootstrap\mixins\list-group.less */
 a.list-group-item-warning {
   color: #8a6d3b;
 }
-/* line 11, bootstrap\mixins\list-group.less */
 a.list-group-item-warning .list-group-item-heading {
   color: inherit;
 }
-/* line 15, bootstrap\mixins\list-group.less */
 a.list-group-item-warning:hover,
 a.list-group-item-warning:focus {
   color: #8a6d3b;
   background-color: #faf2cc;
 }
-/* line 20, bootstrap\mixins\list-group.less */
 a.list-group-item-warning.active,
 a.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus {
@@ -6036,26 +4931,21 @@ a.list-group-item-warning.active:focus {
   background-color: #8a6d3b;
   border-color: #8a6d3b;
 }
-/* line 4, bootstrap\mixins\list-group.less */
 .list-group-item-danger {
   color: #a94442;
   background-color: #f2dede;
 }
-/* line 8, bootstrap\mixins\list-group.less */
 a.list-group-item-danger {
   color: #a94442;
 }
-/* line 11, bootstrap\mixins\list-group.less */
 a.list-group-item-danger .list-group-item-heading {
   color: inherit;
 }
-/* line 15, bootstrap\mixins\list-group.less */
 a.list-group-item-danger:hover,
 a.list-group-item-danger:focus {
   color: #a94442;
   background-color: #ebcccc;
 }
-/* line 20, bootstrap\mixins\list-group.less */
 a.list-group-item-danger.active,
 a.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus {
@@ -6063,17 +4953,14 @@ a.list-group-item-danger.active:focus {
   background-color: #a94442;
   border-color: #a94442;
 }
-/* line 124, bootstrap\list-group.less */
 .list-group-item-heading {
   margin-top: 0;
   margin-bottom: 5px;
 }
-/* line 128, bootstrap\list-group.less */
 .list-group-item-text {
   margin-bottom: 0;
   line-height: 1.3;
 }
-/* line 7, bootstrap\panels.less */
 .panel {
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -6082,33 +4969,27 @@ a.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-/* line 16, bootstrap\panels.less */
 .panel-body {
   padding: 15px;
 }
-/* line 22, bootstrap\panels.less */
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 27, bootstrap\panels.less */
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
 }
-/* line 33, bootstrap\panels.less */
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
   color: inherit;
 }
-/* line 39, bootstrap\panels.less */
 .panel-title > a {
   color: inherit;
 }
-/* line 45, bootstrap\panels.less */
 .panel-footer {
   padding: 10px 15px;
   background-color: #f5f5f5;
@@ -6116,48 +4997,39 @@ a.list-group-item-danger.active:focus {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-/* line 59, bootstrap\panels.less */
 .panel > .list-group {
   margin-bottom: 0;
 }
-/* line 62, bootstrap\panels.less */
 .panel > .list-group .list-group-item {
   border-width: 1px 0;
   border-radius: 0;
 }
-/* line 69, bootstrap\panels.less */
 .panel > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 76, bootstrap\panels.less */
 .panel > .list-group:last-child .list-group-item:last-child {
   border-bottom: 0;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-/* line 85, bootstrap\panels.less */
 .panel-heading + .list-group .list-group-item:first-child {
   border-top-width: 0;
 }
-/* line 89, bootstrap\panels.less */
 .list-group + .panel-footer {
   border-top-width: 0;
 }
-/* line 99, bootstrap\panels.less */
 .panel > .table,
 .panel > .table-responsive > .table,
 .panel > .panel-collapse > .table {
   margin-bottom: 0;
 }
-/* line 105, bootstrap\panels.less */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 112, bootstrap\panels.less */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
@@ -6168,7 +5040,6 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
   border-top-left-radius: 3px;
 }
-/* line 116, bootstrap\panels.less */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
@@ -6179,13 +5050,11 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
   border-top-right-radius: 3px;
 }
-/* line 124, bootstrap\panels.less */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-/* line 131, bootstrap\panels.less */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
@@ -6196,7 +5065,6 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
   border-bottom-left-radius: 3px;
 }
-/* line 135, bootstrap\panels.less */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
@@ -6207,22 +5075,18 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
   border-bottom-right-radius: 3px;
 }
-/* line 142, bootstrap\panels.less */
 .panel > .panel-body + .table,
 .panel > .panel-body + .table-responsive {
   border-top: 1px solid #dddddd;
 }
-/* line 146, bootstrap\panels.less */
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0;
 }
-/* line 150, bootstrap\panels.less */
 .panel > .table-bordered,
 .panel > .table-responsive > .table-bordered {
   border: 0;
 }
-/* line 157, bootstrap\panels.less */
 .panel > .table-bordered > thead > tr > th:first-child,
 .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
 .panel > .table-bordered > tbody > tr > th:first-child,
@@ -6237,7 +5101,6 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
   border-left: 0;
 }
-/* line 161, bootstrap\panels.less */
 .panel > .table-bordered > thead > tr > th:last-child,
 .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
 .panel > .table-bordered > tbody > tr > th:last-child,
@@ -6252,7 +5115,6 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
   border-right: 0;
 }
-/* line 170, bootstrap\panels.less */
 .panel > .table-bordered > thead > tr:first-child > td,
 .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
 .panel > .table-bordered > tbody > tr:first-child > td,
@@ -6263,7 +5125,6 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
   border-bottom: 0;
 }
-/* line 179, bootstrap\panels.less */
 .panel > .table-bordered > tbody > tr:last-child > td,
 .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
 .panel > .table-bordered > tfoot > tr:last-child > td,
@@ -6274,179 +5135,140 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
   border-bottom: 0;
 }
-/* line 186, bootstrap\panels.less */
 .panel > .table-responsive {
   border: 0;
   margin-bottom: 0;
 }
-/* line 198, bootstrap\panels.less */
 .panel-group {
   margin-bottom: 20px;
 }
-/* line 202, bootstrap\panels.less */
 .panel-group .panel {
   margin-bottom: 0;
   border-radius: 4px;
 }
-/* line 205, bootstrap\panels.less */
 .panel-group .panel + .panel {
   margin-top: 5px;
 }
-/* line 210, bootstrap\panels.less */
 .panel-group .panel-heading {
   border-bottom: 0;
 }
-/* line 212, bootstrap\panels.less */
 .panel-group .panel-heading + .panel-collapse > .panel-body {
   border-top: 1px solid #dddddd;
 }
-/* line 216, bootstrap\panels.less */
 .panel-group .panel-footer {
   border-top: 0;
 }
-/* line 218, bootstrap\panels.less */
 .panel-group .panel-footer + .panel-collapse .panel-body {
   border-bottom: 1px solid #dddddd;
 }
-/* line 226, bootstrap\panels.less */
 .panel-default {
   border-color: #dddddd;
 }
-/* line 6, bootstrap\mixins\panels.less */
 .panel-default > .panel-heading {
   color: #333333;
   background-color: #f5f5f5;
   border-color: #dddddd;
 }
-/* line 11, bootstrap\mixins\panels.less */
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #dddddd;
 }
-/* line 14, bootstrap\mixins\panels.less */
 .panel-default > .panel-heading .badge {
   color: #f5f5f5;
   background-color: #333333;
 }
-/* line 20, bootstrap\mixins\panels.less */
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #dddddd;
 }
-/* line 229, bootstrap\panels.less */
 .panel-primary {
   border-color: #428bca;
 }
-/* line 6, bootstrap\mixins\panels.less */
 .panel-primary > .panel-heading {
   color: #ffffff;
   background-color: #428bca;
   border-color: #428bca;
 }
-/* line 11, bootstrap\mixins\panels.less */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #428bca;
 }
-/* line 14, bootstrap\mixins\panels.less */
 .panel-primary > .panel-heading .badge {
   color: #428bca;
   background-color: #ffffff;
 }
-/* line 20, bootstrap\mixins\panels.less */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #428bca;
 }
-/* line 232, bootstrap\panels.less */
 .panel-success {
   border-color: #d6e9c6;
 }
-/* line 6, bootstrap\mixins\panels.less */
 .panel-success > .panel-heading {
   color: #3c763d;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
-/* line 11, bootstrap\mixins\panels.less */
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #d6e9c6;
 }
-/* line 14, bootstrap\mixins\panels.less */
 .panel-success > .panel-heading .badge {
   color: #dff0d8;
   background-color: #3c763d;
 }
-/* line 20, bootstrap\mixins\panels.less */
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #d6e9c6;
 }
-/* line 235, bootstrap\panels.less */
 .panel-info {
   border-color: #bce8f1;
 }
-/* line 6, bootstrap\mixins\panels.less */
 .panel-info > .panel-heading {
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
-/* line 11, bootstrap\mixins\panels.less */
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;
 }
-/* line 14, bootstrap\mixins\panels.less */
 .panel-info > .panel-heading .badge {
   color: #d9edf7;
   background-color: #31708f;
 }
-/* line 20, bootstrap\mixins\panels.less */
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #bce8f1;
 }
-/* line 238, bootstrap\panels.less */
 .panel-warning {
   border-color: #faebcc;
 }
-/* line 6, bootstrap\mixins\panels.less */
 .panel-warning > .panel-heading {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
-/* line 11, bootstrap\mixins\panels.less */
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #faebcc;
 }
-/* line 14, bootstrap\mixins\panels.less */
 .panel-warning > .panel-heading .badge {
   color: #fcf8e3;
   background-color: #8a6d3b;
 }
-/* line 20, bootstrap\mixins\panels.less */
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #faebcc;
 }
-/* line 241, bootstrap\panels.less */
 .panel-danger {
   border-color: #ebccd1;
 }
-/* line 6, bootstrap\mixins\panels.less */
 .panel-danger > .panel-heading {
   color: #a94442;
   background-color: #f2dede;
   border-color: #ebccd1;
 }
-/* line 11, bootstrap\mixins\panels.less */
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ebccd1;
 }
-/* line 14, bootstrap\mixins\panels.less */
 .panel-danger > .panel-heading .badge {
   color: #f2dede;
   background-color: #a94442;
 }
-/* line 20, bootstrap\mixins\panels.less */
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
-/* line 5, bootstrap\responsive-embed.less */
 .embed-responsive {
   position: relative;
   display: block;
@@ -6454,7 +5276,6 @@ a.list-group-item-danger.active:focus {
   padding: 0;
   overflow: hidden;
 }
-/* line 12, bootstrap\responsive-embed.less */
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
@@ -6467,15 +5288,12 @@ a.list-group-item-danger.active:focus {
   width: 100%;
   border: 0;
 }
-/* line 26, bootstrap\responsive-embed.less */
 .embed-responsive.embed-responsive-16by9 {
   padding-bottom: 56.25%;
 }
-/* line 31, bootstrap\responsive-embed.less */
 .embed-responsive.embed-responsive-4by3 {
   padding-bottom: 75%;
 }
-/* line 7, bootstrap\wells.less */
 .well {
   min-height: 20px;
   padding: 19px;
@@ -6486,22 +5304,18 @@ a.list-group-item-danger.active:focus {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-/* line 15, bootstrap\wells.less */
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
-/* line 22, bootstrap\wells.less */
 .well-lg {
   padding: 24px;
   border-radius: 6px;
 }
-/* line 26, bootstrap\wells.less */
 .well-sm {
   padding: 9px;
   border-radius: 3px;
 }
-/* line 6, bootstrap\close.less */
 .close {
   float: right;
   font-size: 21px;
@@ -6512,7 +5326,6 @@ a.list-group-item-danger.active:focus {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
-/* line 15, bootstrap\close.less */
 .close:hover,
 .close:focus {
   color: #000000;
@@ -6521,7 +5334,6 @@ a.list-group-item-danger.active:focus {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-/* line 26, bootstrap\close.less */
 button.close {
   padding: 0;
   cursor: pointer;
@@ -6529,11 +5341,9 @@ button.close {
   border: 0;
   -webkit-appearance: none;
 }
-/* line 11, bootstrap\modals.less */
 .modal-open {
   overflow: hidden;
 }
-/* line 16, bootstrap\modals.less */
 .modal {
   display: none;
   overflow: hidden;
@@ -6546,30 +5356,27 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-/* line 32, bootstrap\modals.less */
 .modal.fade .modal-dialog {
   -webkit-transform: translate3d(0, -25%, 0);
   transform: translate3d(0, -25%, 0);
   -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
-/* line 36, bootstrap\modals.less */
 .modal.in .modal-dialog {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-/* line 38, bootstrap\modals.less */
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
 }
-/* line 44, bootstrap\modals.less */
 .modal-dialog {
   position: relative;
   width: auto;
   margin: 10px;
 }
-/* line 51, bootstrap\modals.less */
 .modal-content {
   position: relative;
   background-color: #ffffff;
@@ -6578,11 +5385,9 @@ button.close {
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   outline: 0;
 }
-/* line 64, bootstrap\modals.less */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -6592,56 +5397,45 @@ button.close {
   z-index: 1040;
   background-color: #000000;
 }
-/* line 73, bootstrap\modals.less */
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 74, bootstrap\modals.less */
 .modal-backdrop.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-/* line 79, bootstrap\modals.less */
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857143px;
 }
-/* line 85, bootstrap\modals.less */
 .modal-header .close {
   margin-top: -2px;
 }
-/* line 90, bootstrap\modals.less */
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
 }
-/* line 97, bootstrap\modals.less */
 .modal-body {
   position: relative;
   padding: 15px;
 }
-/* line 103, bootstrap\modals.less */
 .modal-footer {
   padding: 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
-/* line 110, bootstrap\modals.less */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-/* line 115, bootstrap\modals.less */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-/* line 119, bootstrap\modals.less */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
-/* line 125, bootstrap\modals.less */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -6650,28 +5444,23 @@ button.close {
   overflow: scroll;
 }
 @media (min-width: 768px) {
-  /* line 136, bootstrap\modals.less */
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
-  /* line 140, bootstrap\modals.less */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
-  /* line 145, bootstrap\modals.less */
   .modal-sm {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
-  /* line 149, bootstrap\modals.less */
   .modal-lg {
     width: 900px;
   }
 }
-/* line 7, bootstrap\tooltip.less */
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -6682,32 +5471,26 @@ button.close {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 16, bootstrap\tooltip.less */
 .tooltip.in {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-/* line 17, bootstrap\tooltip.less */
 .tooltip.top {
   margin-top: -3px;
   padding: 5px 0;
 }
-/* line 18, bootstrap\tooltip.less */
 .tooltip.right {
   margin-left: 3px;
   padding: 0 5px;
 }
-/* line 19, bootstrap\tooltip.less */
 .tooltip.bottom {
   margin-top: 3px;
   padding: 5px 0;
 }
-/* line 20, bootstrap\tooltip.less */
 .tooltip.left {
   margin-left: -3px;
   padding: 0 5px;
 }
-/* line 24, bootstrap\tooltip.less */
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -6717,7 +5500,6 @@ button.close {
   background-color: #000000;
   border-radius: 4px;
 }
-/* line 35, bootstrap\tooltip.less */
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -6725,7 +5507,6 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
-/* line 43, bootstrap\tooltip.less */
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -6733,21 +5514,18 @@ button.close {
   border-width: 5px 5px 0;
   border-top-color: #000000;
 }
-/* line 50, bootstrap\tooltip.less */
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   left: 5px;
   border-width: 5px 5px 0;
   border-top-color: #000000;
 }
-/* line 56, bootstrap\tooltip.less */
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   right: 5px;
   border-width: 5px 5px 0;
   border-top-color: #000000;
 }
-/* line 62, bootstrap\tooltip.less */
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
@@ -6755,7 +5533,6 @@ button.close {
   border-width: 5px 5px 5px 0;
   border-right-color: #000000;
 }
-/* line 69, bootstrap\tooltip.less */
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
@@ -6763,7 +5540,6 @@ button.close {
   border-width: 5px 0 5px 5px;
   border-left-color: #000000;
 }
-/* line 76, bootstrap\tooltip.less */
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
@@ -6771,21 +5547,18 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: #000000;
 }
-/* line 83, bootstrap\tooltip.less */
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   left: 5px;
   border-width: 0 5px 5px;
   border-bottom-color: #000000;
 }
-/* line 89, bootstrap\tooltip.less */
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   right: 5px;
   border-width: 0 5px 5px;
   border-bottom-color: #000000;
 }
-/* line 6, bootstrap\popovers.less */
 .popover {
   position: absolute;
   top: 0;
@@ -6796,7 +5569,6 @@ button.close {
   padding: 1px;
   text-align: left;
   background-color: #ffffff;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -6805,23 +5577,18 @@ button.close {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
 }
-/* line 26, bootstrap\popovers.less */
 .popover.top {
   margin-top: -10px;
 }
-/* line 27, bootstrap\popovers.less */
 .popover.right {
   margin-left: 10px;
 }
-/* line 28, bootstrap\popovers.less */
 .popover.bottom {
   margin-top: 10px;
 }
-/* line 29, bootstrap\popovers.less */
 .popover.left {
   margin-left: -10px;
 }
-/* line 32, bootstrap\popovers.less */
 .popover-title {
   margin: 0;
   padding: 8px 14px;
@@ -6832,11 +5599,9 @@ button.close {
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
 }
-/* line 43, bootstrap\popovers.less */
 .popover-content {
   padding: 9px 14px;
 }
-/* line 52, bootstrap\popovers.less */
 .popover > .arrow,
 .popover > .arrow:after {
   position: absolute;
@@ -6846,16 +5611,13 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
-/* line 62, bootstrap\popovers.less */
 .popover > .arrow {
   border-width: 11px;
 }
-/* line 65, bootstrap\popovers.less */
 .popover > .arrow:after {
   border-width: 10px;
   content: "";
 }
-/* line 71, bootstrap\popovers.less */
 .popover.top > .arrow {
   left: 50%;
   margin-left: -11px;
@@ -6864,7 +5626,6 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.25);
   bottom: -11px;
 }
-/* line 78, bootstrap\popovers.less */
 .popover.top > .arrow:after {
   content: " ";
   bottom: 1px;
@@ -6872,7 +5633,6 @@ button.close {
   border-bottom-width: 0;
   border-top-color: #ffffff;
 }
-/* line 86, bootstrap\popovers.less */
 .popover.right > .arrow {
   top: 50%;
   left: -11px;
@@ -6881,7 +5641,6 @@ button.close {
   border-right-color: #999999;
   border-right-color: rgba(0, 0, 0, 0.25);
 }
-/* line 93, bootstrap\popovers.less */
 .popover.right > .arrow:after {
   content: " ";
   left: 1px;
@@ -6889,7 +5648,6 @@ button.close {
   border-left-width: 0;
   border-right-color: #ffffff;
 }
-/* line 101, bootstrap\popovers.less */
 .popover.bottom > .arrow {
   left: 50%;
   margin-left: -11px;
@@ -6898,7 +5656,6 @@ button.close {
   border-bottom-color: rgba(0, 0, 0, 0.25);
   top: -11px;
 }
-/* line 108, bootstrap\popovers.less */
 .popover.bottom > .arrow:after {
   content: " ";
   top: 1px;
@@ -6906,7 +5663,6 @@ button.close {
   border-top-width: 0;
   border-bottom-color: #ffffff;
 }
-/* line 117, bootstrap\popovers.less */
 .popover.left > .arrow {
   top: 50%;
   right: -11px;
@@ -6915,7 +5671,6 @@ button.close {
   border-left-color: #999999;
   border-left-color: rgba(0, 0, 0, 0.25);
 }
-/* line 124, bootstrap\popovers.less */
 .popover.left > .arrow:after {
   content: " ";
   right: 1px;
@@ -6923,67 +5678,55 @@ button.close {
   border-left-color: #ffffff;
   bottom: -10px;
 }
-/* line 7, bootstrap\carousel.less */
 .carousel {
   position: relative;
 }
-/* line 11, bootstrap\carousel.less */
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
 }
-/* line 16, bootstrap\carousel.less */
 .carousel-inner > .item {
   display: none;
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
-/* line 22, bootstrap\carousel.less */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
 }
-/* line 29, bootstrap\carousel.less */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
 }
-/* line 35, bootstrap\carousel.less */
 .carousel-inner > .active {
   left: 0;
 }
-/* line 39, bootstrap\carousel.less */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
   top: 0;
   width: 100%;
 }
-/* line 46, bootstrap\carousel.less */
 .carousel-inner > .next {
   left: 100%;
 }
-/* line 49, bootstrap\carousel.less */
 .carousel-inner > .prev {
   left: -100%;
 }
-/* line 52, bootstrap\carousel.less */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0;
 }
-/* line 57, bootstrap\carousel.less */
 .carousel-inner > .active.left {
   left: -100%;
 }
-/* line 60, bootstrap\carousel.less */
 .carousel-inner > .active.right {
   left: 100%;
 }
-/* line 69, bootstrap\carousel.less */
 .carousel-control {
   position: absolute;
   top: 0;
@@ -6997,25 +5740,22 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-/* line 84, bootstrap\carousel.less */
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
-/* line 87, bootstrap\carousel.less */
 .carousel-control.right {
   left: auto;
   right: 0;
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
-/* line 94, bootstrap\carousel.less */
 .carousel-control:hover,
 .carousel-control:focus {
   outline: 0;
@@ -7024,7 +5764,6 @@ button.close {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-/* line 103, bootstrap\carousel.less */
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
@@ -7034,19 +5773,16 @@ button.close {
   z-index: 5;
   display: inline-block;
 }
-/* line 112, bootstrap\carousel.less */
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
   margin-left: -10px;
 }
-/* line 117, bootstrap\carousel.less */
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
   margin-right: -10px;
 }
-/* line 122, bootstrap\carousel.less */
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
   width: 20px;
@@ -7054,15 +5790,12 @@ button.close {
   margin-top: -10px;
   font-family: serif;
 }
-/* line 132, bootstrap\carousel.less */
 .carousel-control .icon-prev:before {
   content: '\2039';
 }
-/* line 137, bootstrap\carousel.less */
 .carousel-control .icon-next:before {
   content: '\203a';
 }
-/* line 148, bootstrap\carousel.less */
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
@@ -7074,7 +5807,6 @@ button.close {
   list-style: none;
   text-align: center;
 }
-/* line 159, bootstrap\carousel.less */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -7087,14 +5819,12 @@ button.close {
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
 }
-/* line 180, bootstrap\carousel.less */
 .carousel-indicators .active {
   margin: 0;
   width: 12px;
   height: 12px;
   background-color: #ffffff;
 }
-/* line 191, bootstrap\carousel.less */
 .carousel-caption {
   position: absolute;
   left: 15%;
@@ -7107,12 +5837,10 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-/* line 202, bootstrap\carousel.less */
 .carousel-caption .btn {
   text-shadow: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 213, bootstrap\carousel.less */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -7122,28 +5850,23 @@ button.close {
     margin-top: -15px;
     font-size: 30px;
   }
-  /* line 222, bootstrap\carousel.less */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px;
   }
-  /* line 226, bootstrap\carousel.less */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-right: -15px;
   }
-  /* line 233, bootstrap\carousel.less */
   .carousel-caption {
     left: 20%;
     right: 20%;
     padding-bottom: 30px;
   }
-  /* line 240, bootstrap\carousel.less */
   .carousel-indicators {
     bottom: 20px;
   }
 }
-/* line 14, bootstrap\mixins\clearfix.less */
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
@@ -7177,7 +5900,6 @@ button.close {
   content: " ";
   display: table;
 }
-/* line 19, bootstrap\mixins\clearfix.less */
 .clearfix:after,
 .dl-horizontal dd:after,
 .container:after,
@@ -7195,33 +5917,26 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
-/* line 12, bootstrap\utilities.less */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 15, bootstrap\utilities.less */
 .pull-right {
   float: right !important;
 }
-/* line 18, bootstrap\utilities.less */
 .pull-left {
   float: left !important;
 }
-/* line 27, bootstrap\utilities.less */
 .hide {
   display: none !important;
 }
-/* line 30, bootstrap\utilities.less */
 .show {
   display: block !important;
 }
-/* line 33, bootstrap\utilities.less */
 .invisible {
   visibility: hidden;
 }
-/* line 36, bootstrap\utilities.less */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -7229,12 +5944,10 @@ button.close {
   background-color: transparent;
   border: 0;
 }
-/* line 45, bootstrap\utilities.less */
 .hidden {
   display: none !important;
   visibility: hidden !important;
 }
-/* line 54, bootstrap\utilities.less */
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
@@ -7243,14 +5956,12 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
-/* line 28, bootstrap\responsive-utilities.less */
 .visible-xs,
 .visible-sm,
 .visible-md,
 .visible-lg {
   display: none !important;
 }
-/* line 35, bootstrap\responsive-utilities.less */
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -7266,233 +5977,236 @@ button.close {
   display: none !important;
 }
 @media (max-width: 767px) {
-  /* line 51, bootstrap\responsive-utilities.less */
   .visible-xs {
     display: block !important;
   }
-  /* line 7, bootstrap\mixins\responsive-visibility.less */
   table.visible-xs {
     display: table;
   }
-  /* line 8, bootstrap\mixins\responsive-visibility.less */
   tr.visible-xs {
     display: table-row !important;
   }
-  /* line 9, bootstrap\mixins\responsive-visibility.less */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 56, bootstrap\responsive-utilities.less */
   .visible-xs-block {
     display: block !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 61, bootstrap\responsive-utilities.less */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 66, bootstrap\responsive-utilities.less */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 72, bootstrap\responsive-utilities.less */
   .visible-sm {
     display: block !important;
   }
-  /* line 7, bootstrap\mixins\responsive-visibility.less */
   table.visible-sm {
     display: table;
   }
-  /* line 8, bootstrap\mixins\responsive-visibility.less */
   tr.visible-sm {
     display: table-row !important;
   }
-  /* line 9, bootstrap\mixins\responsive-visibility.less */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 77, bootstrap\responsive-utilities.less */
   .visible-sm-block {
     display: block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 82, bootstrap\responsive-utilities.less */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 87, bootstrap\responsive-utilities.less */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 93, bootstrap\responsive-utilities.less */
   .visible-md {
     display: block !important;
   }
-  /* line 7, bootstrap\mixins\responsive-visibility.less */
   table.visible-md {
     display: table;
   }
-  /* line 8, bootstrap\mixins\responsive-visibility.less */
   tr.visible-md {
     display: table-row !important;
   }
-  /* line 9, bootstrap\mixins\responsive-visibility.less */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 98, bootstrap\responsive-utilities.less */
   .visible-md-block {
     display: block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 103, bootstrap\responsive-utilities.less */
   .visible-md-inline {
     display: inline !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 108, bootstrap\responsive-utilities.less */
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 114, bootstrap\responsive-utilities.less */
   .visible-lg {
     display: block !important;
   }
-  /* line 7, bootstrap\mixins\responsive-visibility.less */
   table.visible-lg {
     display: table;
   }
-  /* line 8, bootstrap\mixins\responsive-visibility.less */
   tr.visible-lg {
     display: table-row !important;
   }
-  /* line 9, bootstrap\mixins\responsive-visibility.less */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 119, bootstrap\responsive-utilities.less */
   .visible-lg-block {
     display: block !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 124, bootstrap\responsive-utilities.less */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 129, bootstrap\responsive-utilities.less */
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 135, bootstrap\responsive-utilities.less */
   .hidden-xs {
     display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 140, bootstrap\responsive-utilities.less */
   .hidden-sm {
     display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 145, bootstrap\responsive-utilities.less */
   .hidden-md {
     display: none !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 150, bootstrap\responsive-utilities.less */
   .hidden-lg {
     display: none !important;
   }
 }
-/* line 161, bootstrap\responsive-utilities.less */
 .visible-print {
   display: none !important;
 }
 @media print {
-  /* line 164, bootstrap\responsive-utilities.less */
   .visible-print {
     display: block !important;
   }
-  /* line 7, bootstrap\mixins\responsive-visibility.less */
   table.visible-print {
     display: table;
   }
-  /* line 8, bootstrap\mixins\responsive-visibility.less */
   tr.visible-print {
     display: table-row !important;
   }
-  /* line 9, bootstrap\mixins\responsive-visibility.less */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
   }
 }
-/* line 168, bootstrap\responsive-utilities.less */
 .visible-print-block {
   display: none !important;
 }
 @media print {
-  /* line 171, bootstrap\responsive-utilities.less */
   .visible-print-block {
     display: block !important;
   }
 }
-/* line 175, bootstrap\responsive-utilities.less */
 .visible-print-inline {
   display: none !important;
 }
 @media print {
-  /* line 178, bootstrap\responsive-utilities.less */
   .visible-print-inline {
     display: inline !important;
   }
 }
-/* line 182, bootstrap\responsive-utilities.less */
 .visible-print-inline-block {
   display: none !important;
 }
 @media print {
-  /* line 185, bootstrap\responsive-utilities.less */
   .visible-print-inline-block {
     display: inline-block !important;
   }
 }
 @media print {
-  /* line 191, bootstrap\responsive-utilities.less */
   .hidden-print {
     display: none !important;
   }
+}
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+html #content,
+body #content {
+  margin-top: 60px;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -80px;
+  /* Pad bottom by footer height */
+  padding: 0 0 80px;
+}
+/* Set the fixed height of the footer here */
+footer {
+  height: 80px;
+}
+.megaico {
+  font-size: 80px;
+  text-align: center;
+  height: 150px;
+  transition: 200ms linear;
+}
+.megaico .circle {
+  height: 1.5em;
+  width: 1.5em;
+  line-height: 1.5em;
+  border-radius: 50%;
+  border-color: black;
+  margin: 0 auto 0 auto;
+  border: solid;
+}
+.megaico:hover {
+  font-size: 90px;
+  transition: 200ms linear;
+}
+.jumbotron {
+  background: url('/static/freifunkjumbobig.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
 }
