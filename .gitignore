@@ -5,9 +5,9 @@
 .coverage
 local_settings.py
 /static
-/templates_vorlagen
 migrations
 koala-config.json
 static_blueprints
 templates_blueprints
 .idea
+C
