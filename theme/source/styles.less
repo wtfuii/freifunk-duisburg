@@ -6,7 +6,7 @@
 
 
 @navbar-default-bg: #1E4151;
-@body-bg: #FAF4F1;
+@body-bg: #B8D6CC;
 
 @navbar-default-link-color: #84A7B7;
 @navbar-default-link-active-color: #517484;
@@ -33,6 +33,11 @@ body {
       margin-top: 60px;
     }
   /* The html and body elements cannot have any padding or margin. */
+}
+
+#content {
+  background-color: darken(@body-bg, 5%);
+  border-radius: 10px;
 }
 
 /* Wrapper for page content to push down footer */
@@ -82,10 +87,19 @@ footer {
 }
 
 .jumbotron {
-  background: url('/static/freifunkjumbobig.png');
+  background: url('/static/Duisburg_Hauptbahnhof_Panorama.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
+  .jumbotron-caption {
+    background-color: fade(@body-bg, 80%);
+    display:inline-block;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10px;
+    //.btn {
+    //  background-color: rgba( red(@btn-primary-bg), green(@btn-primary-bg), blue(@btn-primary-bg), 1);
+    //}
+  }
 }
 
 #logo {
