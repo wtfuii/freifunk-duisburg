@@ -18,12 +18,12 @@
 
 @font-face {
   font-family: 'Aller';
-  src: url('static/fonts/ALLER_STD.TTF');
+  src: url('../fonts/ALLER_STD.TTF');
 }
 
 @font-face {
   font-family: 'League Gothic';
-  src: url('static/fonts/LEAGUEGOTHIC-REGULAR.OTF');
+  src: url('../fonts/LEAGUEGOTHIC-REGULAR.OTF');
 }
 
 html,
@@ -123,4 +123,15 @@ footer {
   h3 {
     margin-top: 0;
   }
+}
+
+#supporters {
+  img {
+    max-height: @footerheight - 10;
+  }
+  float: right;
+}
+
+.nav-footer {
+  float: left;
 }

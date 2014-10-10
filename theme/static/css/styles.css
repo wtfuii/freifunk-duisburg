@@ -6165,11 +6165,11 @@ button.close {
 }
 @font-face {
   font-family: 'Aller';
-  src: url('static/fonts/ALLER_STD.TTF');
+  src: url('../fonts/ALLER_STD.TTF');
 }
 @font-face {
   font-family: 'League Gothic';
-  src: url('static/fonts/LEAGUEGOTHIC-REGULAR.OTF');
+  src: url('../fonts/LEAGUEGOTHIC-REGULAR.OTF');
 }
 html,
 body {
@@ -6253,4 +6253,13 @@ footer a:hover {
 }
 .landingico h3 {
   margin-top: 0;
+}
+#supporters {
+  float: right;
+}
+#supporters img {
+  max-height: 70px;
+}
+.nav-footer {
+  float: left;
 }
