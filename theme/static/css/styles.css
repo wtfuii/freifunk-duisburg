@@ -6273,3 +6273,6 @@ footer a:hover {
 .pager a:hover {
   background-color: #152e39;
 }
+.mapcount {
+  list-style: none;
+}

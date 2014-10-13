@@ -46,7 +46,7 @@
     {% block extra_head %}{% endblock %}
 </head>
 
-<body id="{% block body_id %}body{% endblock %}">
+<body id="{% block body_id %}body{% endblock %}" data-spy="scroll" data-target="#side-nav">
 <div id="wrap">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -111,6 +111,8 @@
                 {% page_menu "pages/menus/footer.html" %}
             </div>
             <div class="col-md-4">
+                <ul class="mapcount">
+                </ul>
             </div>
             <div class="col-md-4">
                 <div id="supporters">
