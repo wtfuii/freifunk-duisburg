@@ -16,6 +16,18 @@
 @brand-primary: rgba(33, 100, 163, 0.71);
 @text-color: #000E1E;
 
+@pagination-bg: @navbar-default-bg;
+@pagination-color: @navbar-default-link-color;
+@pagination-hover-color: @navbar-default-link-hover-color;
+@pagination-active-color: @navbar-default-link-active-color;
+@pagination-active-bg: @navbar-default-link-active-bg;
+@pagination-disabled-bg: lighten(@navbar-default-bg, 10%);
+@pagination-border: @navbar-default-border;
+@pagination-disabled-border: @navbar-default-border;
+@pagination-hover-color: @navbar-default-link-hover-color;
+@pagination-hover-bg: none;
+@pagination-hover-border: @pagination-active-bg;
+
 @font-face {
   font-family: 'Aller';
   src: url('../fonts/ALLER_STD.TTF');
@@ -38,6 +50,8 @@ body {
 #content {
   background-color: darken(@body-bg, 5%);
   border-radius: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 /* Wrapper for page content to push down footer */
@@ -52,11 +66,16 @@ body {
 
 /* Set the fixed height of the footer here */
 footer {
+  padding-top: 10px;
   height: @footerheight;
+  font-size: 85%;
   background-color: @navbar-default-bg;
   border-top: @navbar-default-border;
   border-width: 1px;
   border-top-style: solid;
+  .list-unstyled {
+    margin: 0 0 0 0;
+  }
   a {
     color: @navbar-default-link-color;
     &:hover {
@@ -126,12 +145,17 @@ footer {
 }
 
 #supporters {
-  img {
-    max-height: @footerheight - 10;
+  ul {
+    list-style: none;
   }
   float: right;
 }
 
-.nav-footer {
-  float: left;
+.pager {
+  a {
+    color: @pagination-color;
+    &:hover {
+      background-color: @pagination-active-bg;
+    }
+  }
 }
