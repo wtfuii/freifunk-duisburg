@@ -6180,6 +6180,10 @@ html #content,
 body #content {
   margin-top: 60px;
 }
+.container {
+  min-height: 100%;
+  height: 100%;
+}
 #content {
   background-color: #a8cdc0;
   border-radius: 10px;
@@ -6189,7 +6193,6 @@ body #content {
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
-  height: auto;
   /* Negative indent footer by its height */
   margin: 0 auto -80px;
   /* Pad bottom by footer height */
@@ -6198,7 +6201,8 @@ body #content {
 /* Set the fixed height of the footer here */
 footer {
   padding-top: 10px;
-  height: 80px;
+  padding-bottom: 10px;
+  min-height: 80px;
   font-size: 85%;
   background-color: #1e4151;
   border-top: #152e39;
@@ -6261,18 +6265,57 @@ footer a:hover {
 .landingico h3 {
   margin-top: 0;
 }
-#supporters {
-  float: right;
-}
-#supporters ul {
-  list-style: none;
-}
 .pager a {
   color: #84a7b7;
 }
 .pager a:hover {
   background-color: #152e39;
 }
-.mapcount {
+#side-nav .affix-top {
+  position: static;
+}
+#side-nav .affix {
+  position: fixed;
+  top: 60px;
+}
+#side-nav > ul {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+#side-nav > ul li {
+  padding-left: 10px;
+  border-left: 2px solid #a8cdc0;
+}
+#side-nav a:hover {
+  text-decoration: none;
+}
+#side-nav .active {
+  border-left: 2px solid #517484;
+}
+#side-nav .active a {
+  color: #517484;
+}
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+  display: block;
+  content: " ";
+  margin-top: -51px;
+  height: 60px;
+  visibility: hidden;
+}
+.nav-stacked {
   list-style: none;
+  padding-left: 10px;
+}
+@media (max-width: 768px) {
+  .affix,
+  .affix-top,
+  #side-nav > ul {
+    position: static;
+  }
 }

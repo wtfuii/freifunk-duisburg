@@ -27,17 +27,12 @@ $(document).ready(function () {
         //style Forms:
         $("input[type!=submit], textarea").addClass("form-control");
 
-        //adding sections for scrollspy:
-        var h2s = $("h2");
-        console.log(h2s);
 
-        h2s.wrap(function(index){
-            return "<section id='section"  + index + "'></section>";
-        });
+        $("#toc").tableOfContents($("body"),{startLevel: 2, depth: 4});
+        $("#toc ul").addClass("nav-stacked");
 
-        h2s.each(function(index){
-            links.append("a");
-        });
-
+        $('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh');
+        })
     }
 )

@@ -34,6 +34,7 @@
     {% compress js %}
         <script src="{% static "js/jquery-2.1.1.min.js" %}"></script>
         <script src="{% static "js/bootstrap.js" %}"></script>
+        <script src="{% static "js/jquery.tableofcontents.min.js" %}" type="text/javascript" charset="utf-8"></script>
 
         {% block extra_js %}{% endblock %}
     {% endcompress %}
@@ -46,7 +47,7 @@
     {% block extra_head %}{% endblock %}
 </head>
 
-<body id="{% block body_id %}body{% endblock %}" data-spy="scroll" data-target="#side-nav">
+<body id="{% block body_id %}body{% endblock %}" data-target="#side-nav" data-spy="scroll">
 <div id="wrap">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -111,12 +112,12 @@
                 {% page_menu "pages/menus/footer.html" %}
             </div>
             <div class="col-md-4">
-                <ul class="mapcount">
+                <ul class="mapcount list-unstyled">
                 </ul>
             </div>
             <div class="col-md-4">
                 <div id="supporters">
-                    <ul>
+                    <ul class="list-unstyled">
                         <li>Community: <a href="http://freifunk-duisburg.de">Freifunk Duisburg</a></li>
                         <li>Domäne: <a href="http://freifunk-ruhrgebiet.de">Freifunk Ruhrgebiet</a></li>
                         <li>Verein: <a href="https://freifunk-rheinland.net">Freifunk Rheinland e.V.</a></li>
