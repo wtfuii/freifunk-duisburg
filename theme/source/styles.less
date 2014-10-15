@@ -27,6 +27,9 @@
 @pagination-hover-bg: none;
 @pagination-hover-border: @pagination-active-bg;
 
+@popover-title-bg: @navbar-default-bg;
+@popover-bg: darken(@body-bg, 5%);
+
 @font-face {
   font-family: 'Aller';
   src: url('../fonts/ALLER_STD.TTF');
@@ -55,6 +58,10 @@ html, body {
   border-radius: 10px;
   margin-bottom: 10px;
   padding-bottom: 10px;
+  img {
+    border-radius: 3px;
+    margin: 0 10px 0 10px;
+  }
 }
 
 /* Wrapper for page content to push down footer */
@@ -147,9 +154,10 @@ footer {
   }
 }
 
-.pager {
+.pager > li {
   a {
     color: @pagination-color;
+    border-radius: 3px;
     &:hover {
       background-color: @pagination-active-bg;
     }
@@ -161,11 +169,12 @@ footer {
   .affix-top {
     position: static;
   }
-  .affix {
-    position: fixed;
-    top: 60px;
-
-  }
+  @media (min-width: 768px) {
+    .affix {
+      position: fixed;
+      top: 60px;
+    }
+    }
 
     & > ul {
 
@@ -179,9 +188,7 @@ footer {
     }
   }
   a {
-    //color: @navbar-default-link-color;
     &:hover {
-    //  color: @navbar-default-link-active-color;
       text-decoration: none;
     }
   }
@@ -214,4 +221,43 @@ h1, h2, h3, h4, h5, h6 {
     .affix, .affix-top, #side-nav > ul {
         position: static;
     }
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: static !important;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: static !important;
+  }
+}
+
+.btn-sm, .btn-primary {
+  background-color: @navbar-default-bg;
+  color: @navbar-default-link-color;
+  &:hover {
+    color: @navbar-default-link-active-color;
+    background-color: @navbar-default-link-active-bg;
+  }
+}
+
+.pager a {
+  &:hover {
+    color: @navbar-default-link-hover-color;
+  }
+}
+
+.popover input {
+  margin: 5px 0 5px 0;
 }
