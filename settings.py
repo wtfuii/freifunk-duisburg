@@ -102,14 +102,14 @@ ALLOWED_HOSTS = []
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = None
+TIME_ZONE = 'Europe/Berlin'
 
 # If you set this to True, Django will use timezone-aware datetimes.
 USE_TZ = True
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = "de"
+LANGUAGE_CODE = 'de-de'
 
 # Supported languages
 _ = lambda s: s
@@ -363,3 +363,8 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+
+#uberspsace / gunicorn specific
+
+USE_X_FORWARDED_HOST = True
