@@ -6283,6 +6283,7 @@ footer a:hover {
   #side-nav .affix {
     position: fixed;
     top: 60px;
+    max-width: 215px;
   }
 }
 #side-nav > ul {
