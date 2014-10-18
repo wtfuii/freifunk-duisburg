@@ -6279,11 +6279,11 @@ footer a:hover {
 #side-nav .affix-top {
   position: static;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #side-nav .affix {
     position: fixed;
     top: 60px;
-    max-width: 215px;
+    width: 215px;
   }
 }
 #side-nav > ul {
@@ -6320,7 +6320,7 @@ h6:before {
   list-style: none;
   padding-left: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .affix,
   .affix-top,
   #side-nav > ul {
