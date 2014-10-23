@@ -1,3 +1,5 @@
+Community Homepage for Freifunk Duisburg
+
 
 Using the following Setup:
 
@@ -6,5 +8,5 @@ Using the following Setup:
 * Python 3.3
 * Twitter Bootstrap Less files for CSS computing
 
-This is just a skeleton.
+To the refresh the count of online nodes and clients in the footer, you need to create a cron job, that fetches the newest nodes.json from the ffmap-server via wget and overwrites the old nodes.json in the static-folder.
 
