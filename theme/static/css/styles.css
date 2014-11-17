@@ -6165,21 +6165,21 @@ button.close {
 }
 @font-face {
   font-family: 'Aller';
-  src: url('../fonts/Aller_Rg.TTF');
+  src: url('/static/fonts/Aller_Rg.TTF');
 }
 @font-face {
   font-family: 'Aller';
-  src: url('../fonts/Aller_It.TTF');
+  src: url('/static/fonts/Aller_It.TTF');
   font-weight: italic;
 }
 @font-face {
   font-family: 'Aller';
-  src: url('../fonts/Aller_Bd.TTF');
+  src: url('/static/fonts/Aller_Bd.TTF');
   font-weight: bold;
 }
 @font-face {
   font-family: 'League Gothic';
-  src: url('../fonts/LEAGUEGOTHIC-REGULAR.OTF');
+  src: url('/static/fonts/LEAGUEGOTHIC-REGULAR.OTF');
 }
 html,
 body {
