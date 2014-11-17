@@ -6165,16 +6165,16 @@ button.close {
 }
 @font-face {
   font-family: 'Aller';
-  src: url('/static/fonts/Aller_Rg.TTF');
+  src: url('/static/fonts/Aller_Rg.ttf');
 }
 @font-face {
   font-family: 'Aller';
-  src: url('/static/fonts/Aller_It.TTF');
+  src: url('/static/fonts/Aller_It.ttf');
   font-weight: italic;
 }
 @font-face {
   font-family: 'Aller';
-  src: url('/static/fonts/Aller_Bd.TTF');
+  src: url('/static/fonts/Aller_Bd.ttf');
   font-weight: bold;
 }
 @font-face {
